@@ -1,0 +1,1 @@
+// Pure Helper Functions - Formatters
