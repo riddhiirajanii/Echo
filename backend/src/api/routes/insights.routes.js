@@ -5,6 +5,8 @@ const {
   getInsights
 } = require("../controllers/insights.controller");
 
-router.get("/", getInsights);
+const { authenticate } = require("../middleware/auth.middleware");
+
+router.get("/", authenticate, getInsights);
 
 module.exports = router;

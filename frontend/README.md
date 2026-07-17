@@ -1,1 +1,16 @@
-# Echo Frontend\n\nAI-powered mental wellness companion frontend application.\n\n## Setup\n\n1. Install dependencies:\n   ```bash\n   npm install\n   ```\n\n2. Start development server:\n   ```bash\n   npm start\n   ```\n\n3. Build for production:\n   ```bash\n   npm run build\n   ```\n\n## Project Structure\n\n- `src/components/` - React components\n  - `Chat/` - Conversational interface\n  - `Assessment/` - Anxiety assessment forms\n  - `EmotionAnalysis/` - Emotion display/tracking\n  - `CopingStrategies/` - Coping technique cards\n  - `CrisisResources/` - Emergency resources page\n  - `Common/` - Shared components\n- `src/pages/` - Page components\n- `src/services/` - API services\n- `src/hooks/` - Custom React hooks\n- `src/context/` - Context API for state management\n- `src/styles/` - Stylesheet files\n- `src/utils/` - Utility functions\n- `public/` - Static files\n
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

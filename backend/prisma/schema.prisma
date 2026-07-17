@@ -8,34 +8,83 @@ datasource db {
 }
 
 model User {
-  id          Int            @id @default(autoincrement())
-  name        String
-  email       String         @unique
-  password    String
 
-  journals    JournalEntry[]
-  assessments Assessment[]
+  id        Int      @id @default(autoincrement())
 
-  createdAt   DateTime @default(now())
+  name      String
+
+  email     String   @unique
+
+  password  String
+
+  age       Int?
+
+  gender    String?
+
+  phone     String?
+
+  profilePicture String?
+
+  createdAt DateTime @default(now())
+
+  journals      JournalEntry[]
+
+  assessments   Assessment[]
+
+  isVerified   Boolean       @default(false)
+
+  verificationCode    String?
+
+  conversations Conversation[]
 }
 
 model JournalEntry {
-  id          Int      @id @default(autoincrement())
-  content     String   @db.Text
-  emotion     String?
-  createdAt   DateTime @default(now())
+  id        Int      @id @default(autoincrement())
+  content   String   @db.Text
+  emotion   String?
+  createdAt DateTime @default(now())
 
-  userId      Int
-  user        User     @relation(fields: [userId], references: [id])
+  userId Int
+  user   User @relation(fields: [userId], references: [id])
 }
 
 model Assessment {
+  id       Int    @id @default(autoincrement())
+  score    Int
+  severity String
+
+  createdAt DateTime @default(now())
+
+  userId Int
+  user   User @relation(fields: [userId], references: [id])
+}
+
+model ChatMessage {
+  id Int @id @default(autoincrement())
+
+  role    String
+  content String
+
+  createdAt DateTime @default(now())
+
+  conversationId Int
+
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+}
+
+model Conversation {
+
   id          Int      @id @default(autoincrement())
-  score       Int
-  severity    String
+
+  title       String
 
   createdAt   DateTime @default(now())
 
+  updatedAt   DateTime @updatedAt
+
   userId      Int
-  user        User     @relation(fields: [userId], references: [id])
+
+  user        User @relation(fields:[userId], references:[id])
+
+  messages    ChatMessage[]
 }

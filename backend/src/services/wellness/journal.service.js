@@ -23,20 +23,24 @@ const saveJournal = async (content, userId) => {
   });
 };
 
-const getJournals = async () => {
+const getJournals = async (userId) => {
   return await prisma.journalEntry.findMany({
+    where: {
+      userId
+    },
     orderBy: {
       createdAt: "desc"
     }
   });
 };
 
-const updateJournal = async (id, content) => {
+const updateJournal = async (id, content, userId) => {
   const emotion = detectEmotion(content);
 
   return await prisma.journalEntry.update({
     where: {
-      id: Number(id)
+      id: Number(id),
+      userId
     },
     data: {
       content,
@@ -45,18 +49,20 @@ const updateJournal = async (id, content) => {
   });
 };
 
-const deleteJournal = async (id) => {
+const deleteJournal = async (id, userId) => {
   return await prisma.journalEntry.delete({
     where: {
+      userId,
       id: Number(id)
     }
   });
 };
 
-const getJournalById = async (id) => {
+const getJournalById = async (id, userId) => {
   return await prisma.journalEntry.findUnique({
     where: {
-      id: Number(id)
+      id: Number(id),
+      userId
     }
   });
 };

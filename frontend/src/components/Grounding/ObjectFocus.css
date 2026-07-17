@@ -1,0 +1,183 @@
+/* --- Tactile Anchor Outlines --- */
+.anchor-page-fullscreen {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  min-height: 100vh;
+}
+
+.anchor-header h1 {
+  font-size: 2.2rem;
+  color: #4a3e3d;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.anchor-header p {
+  color: #8a7474;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.anchor-container-card {
+  background: #ffffff;
+  border: 1px solid rgba(212, 163, 115, 0.2);
+  border-radius: 28px;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 12px 40px rgba(212, 163, 115, 0.04);
+}
+
+/* --- Item Grid Dashboard --- */
+.anchor-options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.anchor-selection-tile {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  background: #fafafa;
+  border: 1px solid #f0f0f0;
+  border-radius: 18px;
+  padding: 1.2rem;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.anchor-selection-tile:hover {
+  background: #fffbeb;
+  border-color: #fde68a;
+  transform: translateX(3px);
+}
+
+.tile-icon {
+  font-size: 2rem;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+}
+
+.tile-info h4 {
+  font-size: 1.05rem;
+  color: #4a3e3d;
+  margin-bottom: 0.15rem;
+  font-weight: 700;
+}
+
+.tile-info span {
+  font-size: 0.85rem;
+  color: #a39090;
+}
+
+.anchor-custom-fallback-btn {
+  background: none;
+  border: none;
+  font-weight: 600;
+  color: #b45309;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  text-decoration: underline;
+}
+
+/* --- Macro Prompts Presentation Canvas --- */
+.active-macro-step {
+  align-items: flex-start;
+}
+
+.anchor-progress-meta {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b45309;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.5rem;
+}
+
+.macro-prompt-billboard {
+  background: #fffbeb;
+  border-left: 5px solid #f59e0b;
+  padding: 2rem;
+  border-radius: 0 20px 20px 0;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.macro-prompt-billboard h3 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #78350f;
+  margin-bottom: 0.75rem;
+}
+
+.macro-prompt-billboard p {
+  font-size: 1.1rem;
+  color: #92400e;
+  line-height: 1.6;
+}
+
+.macro-tactile-reminder {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #a39090;
+  margin-bottom: 2.5rem;
+  align-self: center;
+}
+
+/* --- Navigation Button Systems --- */
+.anchor-primary-btn {
+  background: #d97706;
+  color: white;
+  padding: 0.9rem 2.5rem;
+  border: none;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  cursor: pointer;
+  align-self: center;
+  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.2);
+  transition: all 0.2s ease;
+}
+
+.anchor-primary-btn:hover {
+  background: #b45309;
+  transform: translateY(-1px);
+}
+
+.anchor-secondary-btn {
+  background: #fafafa;
+  color: #705e5d;
+  border: 1px solid #e5e5e5;
+  padding: 0.9rem 2.5rem;
+  border-radius: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.anchor-secondary-btn:hover {
+  background: #fffbeb;
+  border-color: #fde68a;
+  color: #b45309;
+}
+
+.anchor-celebration-emblem {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.anchor-completion-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: center;
+  width: 100%;
+}

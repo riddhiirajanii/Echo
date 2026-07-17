@@ -1,0 +1,167 @@
+/* --- Sensory Scan Container Adjustments --- */
+.grounding-page-fullscreen {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  min-height: 100vh;
+}
+
+.grounding-header h1 {
+  font-size: 2.2rem;
+  color: #4a3e3d;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.grounding-header p {
+  color: #8a7474;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.grounding-container-card {
+  background: #ffffff;
+  border: 1px solid rgba(255, 228, 230, 0.8);
+  border-radius: 28px;
+  padding: 3.5rem 2.5rem;
+  box-shadow: 0 12px 40px rgba(251, 113, 133, 0.03);
+  width: 100%;
+}
+
+/* --- Internal Flow Framework Layouts --- */
+.grounding-flow-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.grounding-intro-emblem {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.grounding-narrative-text {
+  font-size: 1.05rem;
+  color: #705e5d;
+  line-height: 1.6;
+  margin: 1rem 0 2.5rem 0;
+}
+
+/* Giant Number Indicator Badge */
+.sense-giant-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #332726;
+  margin-bottom: 1.5rem;
+}
+
+.sense-title-label {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #332726;
+  margin-bottom: 0.5rem;
+}
+
+.grounding-instruction-text {
+  font-size: 1.1rem;
+  color: #5c4d4c;
+  margin-bottom: 1.8rem;
+}
+
+/* Helpful Hint Callout Panel */
+.sense-examples-box {
+  background: #fafafa;
+  border-radius: 16px;
+  padding: 1rem 1.5rem;
+  font-size: 0.92rem;
+  font-style: italic;
+  color: #a39090;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  border: 1px dashed #f5f5f5;
+}
+
+/* --- Dynamic Step Theme Shifting --- */
+.step-active.sense-see .sense-giant-badge { color: #be123c; }
+.step-active.sense-feel .sense-giant-badge { color: #b45309; }
+.step-active.sense-hear .sense-giant-badge { color: #047857; }
+.step-active.sense-smell .sense-giant-badge { color: #0369a1; }
+.step-active.sense-taste .sense-giant-badge { color: #6d28d9; }
+
+/* --- Progress Line Dots --- */
+.grounding-progress-dots {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.progress-dot {
+  width: 35px;
+  height: 5px;
+  background: #f5f5f5;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.progress-dot.filled {
+  background: #fecdd3;
+}
+
+/* --- Custom Control Buttons System --- */
+.grounding-action-btn {
+  background: #fb7185;
+  color: white;
+  padding: 0.9rem 2.5rem;
+  border: none;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  box-shadow: 0 4px 14px rgba(251, 113, 133, 0.25);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.grounding-action-btn:hover {
+  background: #f43f5e;
+  transform: translateY(-1px);
+}
+
+.grounding-action-btn.reset-btn {
+  background: #fafafa;
+  color: #705e5d;
+  border: 1px solid #e5e5e5;
+  box-shadow: none;
+}
+
+.grounding-action-btn.reset-btn:hover {
+  background: #fff1f2;
+  border-color: #fecdd3;
+  color: #9f1239;
+}
+
+.completion-utility-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.finish-exit-link {
+  font-weight: 600;
+  color: #fb7185;
+  text-decoration: none;
+}
+
+.finish-exit-link:hover {
+  color: #e11d48;
+  text-decoration: underline;
+}

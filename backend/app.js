@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
 
@@ -20,5 +22,11 @@ app.use("/api/insights", insightsRoutes);
 
 const authRoutes = require("./src/api/routes/auth.routes");
 app.use("/api/auth", authRoutes);
+
+const profileRoutes = require("./src/api/routes/profile.routes");
+app.use( "/api/profile", profileRoutes);
+
+const conversationRoutes = require("./src/api/routes/conversation.routes");
+app.use("/api/conversations", conversationRoutes);
 
 module.exports = app;

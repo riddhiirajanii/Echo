@@ -4,11 +4,13 @@ const {
 
 const getInsights = async (req, res) => {
 
-  const insights = await fetchInsights();
+  const report = await fetchInsights(
+    req.user.userId
+  );
 
   res.json({
     success: true,
-    insights
+    report
   });
 };
 

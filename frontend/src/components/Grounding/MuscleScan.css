@@ -1,0 +1,163 @@
+/* --- Somatic Page Core Outlines --- */
+.somatic-page-fullscreen {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  min-height: 100vh;
+}
+
+.somatic-header h1 {
+  font-size: 2.2rem;
+  color: #4a3e3d;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.somatic-header p {
+  color: #8a7474;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+.somatic-container-card {
+  background: #ffffff;
+  border: 1px solid rgba(255, 228, 230, 0.8);
+  border-radius: 28px;
+  padding: 3.5rem 2.5rem;
+  box-shadow: 0 12px 40px rgba(251, 113, 133, 0.03);
+}
+
+/* --- Internal Modular Sub-Elements --- */
+.somatic-flow-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.somatic-emblem {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.somatic-step-counter {
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #a39090;
+  margin-bottom: 0.5rem;
+}
+
+.somatic-group-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #332726;
+  margin-bottom: 2rem;
+}
+
+/* --- Central Dynamic State Billboard Box --- */
+.somatic-state-billboard {
+  width: 100%;
+  border-radius: 20px;
+  padding: 2.2rem;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tension Active View State Styles */
+.somatic-state-billboard.mode-squeeze {
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+}
+.somatic-state-billboard.mode-squeeze .billboard-status-tag {
+  color: #be123c;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Release Active View State Styles */
+.somatic-state-billboard.mode-release {
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  animation: ripplePulse 2s infinite ease-in-out;
+}
+.somatic-state-billboard.mode-release .billboard-status-tag {
+  color: #047857;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+@keyframes ripplePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.015); box-shadow: 0 0 20px rgba(167, 243, 208, 0.2); }
+}
+
+.billboard-instruction-details {
+  font-size: 1.1rem;
+  color: #4a3e3d;
+  line-height: 1.6;
+  max-width: 440px;
+  margin-bottom: 1rem;
+}
+
+.billboard-countdown-clock {
+  font-size: 0.88rem;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  color: inherit;
+}
+
+/* --- Interactive Activation Elements --- */
+.somatic-action-btn.primary-trigger {
+  background: #fb7185;
+  color: white;
+  padding: 0.9rem 2.5rem;
+  border: none;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  box-shadow: 0 4px 14px rgba(251, 113, 133, 0.25);
+  transition: all 0.2s ease;
+}
+
+.somatic-action-btn.primary-trigger:hover:not(:disabled) {
+  background: #f43f5e;
+  transform: translateY(-1px);
+}
+
+.somatic-action-btn.primary-trigger:disabled {
+  background: #e5e5e5;
+  color: #a39090;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.margin-top-large {
+  margin-top: 2.5rem;
+}
+
+.somatic-action-btn.reset-btn {
+  background: #fafafa;
+  color: #705e5d;
+  border: 1px solid #e5e5e5;
+  padding: 0.9rem 2.5rem;
+  border-radius: 16px;
+  font-weight: 600;
+}
+.somatic-action-btn.reset-btn:hover {
+  background: #fff1f2;
+  border-color: #fecdd3;
+  color: #9f1239;
+}

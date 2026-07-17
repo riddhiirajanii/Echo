@@ -19,7 +19,7 @@ const createJournal = async (req, res) => {
 };
 
 const fetchJournals = async (req, res) => {
-  const journals = await getJournals();
+  const journals = await getJournals(req.user.userId);
 
   res.json({
     success: true,

@@ -22,15 +22,20 @@ const registerUser = async (
   const hashedPassword =
     await bcrypt.hash(password, 10);
 
+  const verificationCode = Math.floor(
+    100000 + Math.random() * 900000
+  ).toString();
+
   const user =
     await prisma.user.create({
       data: {
         name,
         email,
-        password: hashedPassword
+        password: hashedPassword,
+        verificationCode
       }
     });
-
+  
   const { password: _, ...safeUser } = user;
 
    return safeUser;

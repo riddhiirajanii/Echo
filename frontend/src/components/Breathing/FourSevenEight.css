@@ -1,0 +1,23 @@
+/* --- 4-7-8 Advanced Breathing Transitions --- */
+.breathing-core-orb.advanced-mode {
+  transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.8s ease;
+}
+
+/* Phase Specific Background Color Tones */
+.breathing-core-orb.advanced-mode.phase-inhale {
+  background: #fecdd3; /* Radiant Rose */
+}
+
+.breathing-core-orb.advanced-mode.phase-hold {
+  background: #fed7aa; /* Stable Warm Amber */
+}
+
+.breathing-core-orb.advanced-mode.phase-exhale {
+  background: #e0f2fe; /* Serene Ice Blue */
+}
+
+/* Badge State Highlights */
+.breath-phase-badge.advanced-inhale { background: #fff1f2; color: #be123c; }
+.breath-phase-badge.advanced-hold { background: #fff7ed; color: #c2410c; }
+.breath-phase-badge.advanced-exhale { background: #f0f9ff; color: #0369a1; }
+.breath-phase-badge.advanced-ready { background: #f5f5f5; color: #737373; }

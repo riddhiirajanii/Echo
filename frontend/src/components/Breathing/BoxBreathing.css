@@ -1,0 +1,176 @@
+/* --- Box Breathing Center UI Area --- */
+.breath-page-fullscreen {
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.breath-header h1 {
+  font-size: 2.2rem;
+  color: #9f1239;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.breath-header p {
+  color: #8a7474;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.breath-container-card {
+  background: #ffffff;
+  border: 1px solid rgba(255, 228, 230, 0.8);
+  border-radius: 28px;
+  padding: 3.5rem 2.5rem;
+  box-shadow: 0 12px 40px rgba(251, 113, 133, 0.04);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* --- Animated Breathing Orbs Structures --- */
+.breathing-circle-wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.breathing-outer-ring {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid #fff1f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Pulsing ambient container ring when active */
+.breathing-outer-ring.active {
+  animation: atmosphericGlow 16s infinite linear;
+}
+
+@keyframes atmosphericGlow {
+  0%, 100% { border-color: #ffe4e6; box-shadow: 0 0 20px rgba(255, 228, 230, 0.2); }
+  25% { border-color: #fecdd3; box-shadow: 0 0 30px rgba(251, 113, 133, 0.1); }
+  70% { border-color: #fda4af; box-shadow: 0 0 20px rgba(251, 113, 133, 0.05); }
+}
+
+/* Core expanding/collapsing circle target */
+.breathing-core-orb {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #fff1f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 4s linear, background-color 0.5s ease;
+  transform: scale(0.65);
+}
+
+/* State-Driven Scale Actions matching 4s cycles exactly */
+.breathing-core-orb.phase-ready {
+  transform: scale(0.65);
+  background: #fafafa;
+}
+
+.breathing-core-orb.phase-inhale {
+  transform: scale(1); /* Smooth expansion step */
+  background: #fecdd3;
+}
+
+.breathing-core-orb.phase-hold-in {
+  transform: scale(1); /* Maintained full size state */
+  background: #fda4af;
+}
+
+.breathing-core-orb.phase-exhale {
+  transform: scale(0.5); /* Soft collapse step */
+  background: #fff1f2;
+}
+
+.breathing-core-orb.phase-hold-out {
+  transform: scale(0.5); /* Maintained small empty state */
+  background: #fafafa;
+}
+
+/* Timer Number inside Orb */
+.countdown-timer-display {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #9f1239;
+}
+
+/* --- Instructional UI & Dynamic Copy Meta --- */
+.breath-phase-badge-row {
+  margin-bottom: 1rem;
+}
+
+.breath-phase-badge {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  background: #f5f5f5;
+  color: #737373;
+  transition: all 0.3s ease;
+}
+
+.breath-phase-badge.inhale { background: #ffe4e6; color: #9f1239; }
+.breath-phase-badge.hold-in { background: #fecdd3; color: #9f1239; }
+.breath-phase-badge.exhale { background: #fff1f2; color: #be123c; }
+.breath-phase-badge.hold-out { background: #fafafa; color: #a3a3a3; }
+
+.breath-instruction-narrative {
+  font-size: 1.1rem;
+  color: #4a3e3d;
+  line-height: 1.6;
+  min-height: 3.2rem; /* Static space placeholder prevents textual layout shifting */
+  max-width: 380px;
+  margin-bottom: 2.5rem;
+}
+
+/* --- Control Buttons --- */
+.breath-action-trigger {
+  background: #fb7185;
+  color: white;
+  padding: 0.9rem 2.2rem;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  box-shadow: 0 4px 14px rgba(251, 113, 133, 0.25);
+  transition: all 0.2s ease;
+}
+
+.breath-action-trigger:hover {
+  background: #f43f5e;
+}
+
+.breath-action-trigger.running {
+  background: transparent;
+  color: #a39090;
+  border: 1px solid #ffe4e6;
+  box-shadow: none;
+}
+
+.breath-action-trigger.running:hover {
+  background: #fff1f2;
+  color: #9f1239;
+}
