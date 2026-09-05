@@ -29,4 +29,7 @@ app.use( "/api/profile", profileRoutes);
 const conversationRoutes = require("./src/api/routes/conversation.routes");
 app.use("/api/conversations", conversationRoutes);
 
+const mlRoutes = require("./src/api/routes/ml.routes");
+app.use("/api/ml", mlRoutes);
+
 module.exports = app;

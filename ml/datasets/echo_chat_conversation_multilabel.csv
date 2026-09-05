@@ -1,0 +1,707 @@
+id,content,chat_type,secondary_emotions,is_multilabel,label_set,conversation_id
+msg_00479,"Honestly, i did what I normally do.",neutral,,False,neutral,conv_00001
+msg_00082,I had a surprisingly wonderful day.,happy,,False,happy,conv_00001
+msg_00078,I am glad I let myself enjoy today.,happy,,False,happy,conv_00001
+msg_00209,I feel disrespected and frustrated.,angry,,False,angry,conv_00001
+msg_00320,I am nervous about being judged.,anxious,,False,anxious,conv_00002
+msg_00327,I keep thinking about possible problems.,anxious,,False,anxious,conv_00002
+msg_00249,I feel angry whenever I remember what they said.,angry,,False,angry,conv_00002
+msg_00325,I am afraid something will go wrong.,anxious,,False,anxious,conv_00002
+msg_00621,"I felt lonely today, but a friend's message gave me a small reason to smile. I could feel both reactions at once.",sad,happy,True,"sad,happy",conv_00003
+msg_00121,I wanted to stay in bed because I felt so low.,sad,,False,sad,conv_00003
+msg_00159,I am feeling like crying whenever I think about it.,sad,,False,sad,conv_00003
+msg_00166,I am feeling empty when the day gets quiet.,sad,,False,sad,conv_00003
+msg_00397,"Today, i am feeling on edge tonight.",anxious,,False,anxious,conv_00004
+msg_00278,"Lately, i am feeling disrespected and frustrated.",angry,,False,angry,conv_00004
+msg_00232,I feel provoked and upset.,angry,,False,angry,conv_00004
+msg_00119,I miss how life used to feel.,sad,,False,sad,conv_00004
+msg_00134,I feel a quiet ache that will not go away.,sad,,False,sad,conv_00005
+msg_00580,"Lately, right now I am having suicidal thoughts again.",suicidal,,False,suicidal,conv_00005
+msg_00200,I am tired of carrying this sadness alone.,sad,,False,sad,conv_00005
+msg_00132,I have been missing my old life.,sad,,False,sad,conv_00005
+msg_00055,I am feeling encouraged by my progress.,happy,,False,happy,conv_00006
+msg_00673,"I am still annoyed about the argument, although I was happy about how the rest of the day went. The two feelings seemed to sit together rather than replace each other.",angry,happy,True,"angry,happy",conv_00006
+msg_00605,"I had a wonderful time with my friends, but I still missed someone who could not be there. By the evening, I was still carrying both emotions.",happy,sad,True,"happy,sad",conv_00006
+msg_00357,"Honestly, i have a knot in my stomach.",anxious,,False,anxious,conv_00006
+msg_00098,I feel hopeful because things are improving.,happy,,False,happy,conv_00007
+msg_00228,Right now I am frustrated beyond words.,angry,,False,angry,conv_00007
+msg_00426,I had a fairly standard day.,neutral,,False,neutral,conv_00007
+msg_00079,Right now I am glad I let myself enjoy today.,happy,,False,happy,conv_00007
+msg_00255,"Honestly, right now I am really angry about what happened.",angry,,False,angry,conv_00008
+msg_00110,I keep thinking about what I lost.,sad,,False,sad,conv_00008
+msg_00064,Right now I am celebrating a small win tonight.,happy,,False,happy,conv_00008
+msg_00410,The day was neither especially good nor bad.,neutral,,False,neutral,conv_00008
+msg_00471,"Today, it was an uneventful day.",neutral,,False,neutral,conv_00009
+msg_00514,I am afraid I might hurt myself.,suicidal,,False,suicidal,conv_00009
+msg_00610,"I am thrilled about the opportunity, although I keep worrying that I might mess it up. By the evening, I was still carrying both emotions.",happy,anxious,True,"happy,anxious",conv_00009
+msg_00356,"Lately, i have a knot in my stomach.",anxious,,False,anxious,conv_00009
+msg_00341,I am nervous waiting for their reply.,anxious,,False,anxious,conv_00010
+msg_00197,I have been thinking about the past all day.,sad,,False,sad,conv_00010
+msg_00675,"I am still annoyed about the argument, although I was happy about how the rest of the day went. By the evening, I was still carrying both emotions.",angry,happy,True,"angry,happy",conv_00010
+msg_00183,I keep remembering better days.,sad,,False,sad,conv_00010
+msg_00175,I feel emotionally fragile today.,sad,,False,sad,conv_00011
+msg_00592,"Lately, i keep thinking about ending everything.",suicidal,,False,suicidal,conv_00011
+msg_00496,"Lately, most of today was routine.",neutral,,False,neutral,conv_00011
+msg_00370,"Today, i feel tense and restless.",anxious,,False,anxious,conv_00011
+msg_00193,Right now I am struggling to let go of what happened.,sad,,False,sad,conv_00012
+msg_00319,I keep expecting bad news.,anxious,,False,anxious,conv_00012
+msg_00693,"My day followed the usual routine, but I kept worrying about tomorrow. The two feelings seemed to sit together rather than replace each other.",neutral,anxious,True,"neutral,anxious",conv_00012
+msg_00251,"Lately, i am really angry about what happened.",angry,,False,angry,conv_00012
+msg_00538,I cannot stop thinking about suicide.,suicidal,,False,suicidal,conv_00013
+msg_00011,I am feeling grateful for how well today turned out.,happy,,False,happy,conv_00013
+msg_00648,"I am excited about tomorrow, but my mind keeps worrying about everything that could go wrong. The two feelings seemed to sit together rather than replace each other.",anxious,happy,True,"anxious,happy",conv_00013
+msg_00235,Right now I am tired of being treated like this.,angry,,False,angry,conv_00013
+msg_00432,"Today, today was pretty ordinary.",neutral,,False,neutral,conv_00014
+msg_00512,I am having suicidal thoughts again.,suicidal,,False,suicidal,conv_00014
+msg_00330,I am anxious about the result.,anxious,,False,anxious,conv_00014
+msg_00085,I felt appreciated and understood today.,happy,,False,happy,conv_00014
+msg_00433,"Lately, i went through my usual routine.",neutral,,False,neutral,conv_00015
+msg_00584,"Honestly, i am afraid I might hurt myself.",suicidal,,False,suicidal,conv_00015
+msg_00656,"Everything is normal on the surface, but I cannot stop feeling nervous about tomorrow. I could feel both reactions at once.",anxious,neutral,True,"anxious,neutral",conv_00015
+msg_00642,"I was already nervous about the meeting, and the delay made me really irritated. It was difficult to describe the mood with one word.",anxious,angry,True,"anxious,angry",conv_00015
+msg_00602,"I had a wonderful time with my friends, but I still missed someone who could not be there. It was difficult to describe the mood with one word.",happy,sad,True,"happy,sad",conv_00016
+msg_00295,"Today, i am irritated by everything right now.",angry,,False,angry,conv_00016
+msg_00363,"Honestly, i cannot seem to relax.",anxious,,False,anxious,conv_00016
+msg_00611,"I am happy about the result, but I am still annoyed by how I was treated. I could feel both reactions at once.",happy,angry,True,"happy,angry",conv_00016
+msg_00307,I cannot seem to relax.,anxious,,False,anxious,conv_00017
+msg_00260,"Lately, i feel furious after that conversation.",angry,,False,angry,conv_00017
+msg_00661,"I am furious about what happened, but I am also worried about what will happen next. I could feel both reactions at once.",angry,anxious,True,"angry,anxious",conv_00017
+msg_00522,I am thinking about dying more than usual.,suicidal,,False,suicidal,conv_00017
+msg_00637,"Nothing dramatic happened today, but I still felt unusually low. It was difficult to describe the mood with one word.",sad,neutral,True,"sad,neutral",conv_00018
+msg_00087,I ended the day smiling.,happy,,False,happy,conv_00018
+msg_00073,Right now I am enjoying being around people again.,happy,,False,happy,conv_00018
+msg_00032,I feel genuinely appreciated today.,happy,,False,happy,conv_00018
+msg_00292,"Today, i wanted to yell when I heard that.",angry,,False,angry,conv_00019
+msg_00429,I caught up on some ordinary tasks.,neutral,,False,neutral,conv_00019
+msg_00345,"Honestly, i cannot stop worrying about tomorrow.",anxious,,False,anxious,conv_00019
+msg_00381,"Honestly, i keep second-guessing myself.",anxious,,False,anxious,conv_00019
+msg_00146,I am feeling worn down by sadness.,sad,,False,sad,conv_00020
+msg_00221,I cannot let go of how unfair that was.,angry,,False,angry,conv_00020
+msg_00056,That conversation lifted my spirits.,happy,,False,happy,conv_00020
+msg_00669,"I am angry that they treated me this way, but underneath that anger I mostly feel hurt. I noticed the second feeling more once I had calmed down.",angry,sad,True,"angry,sad",conv_00020
+msg_00328,I feel overwhelmed by uncertainty.,anxious,,False,anxious,conv_00021
+msg_00667,"I am angry that they treated me this way, but underneath that anger I mostly feel hurt. It was difficult to describe the mood with one word.",angry,sad,True,"angry,sad",conv_00021
+msg_00077,I had more energy than usual and it felt great.,happy,,False,happy,conv_00021
+msg_00003,I cannot stop smiling after that news.,happy,,False,happy,conv_00021
+msg_00282,"Honestly, that was the last straw.",angry,,False,angry,conv_00022
+msg_00303,I feel nervous about what might happen.,anxious,,False,anxious,conv_00022
+msg_00546,"Today, i am thinking about ending my life.",suicidal,,False,suicidal,conv_00022
+msg_00702,"I am happy about the opportunity, nervous about the pressure, and annoyed that I was given so little time.",happy,"anxious,angry",True,"happy,anxious,angry",conv_00022
+msg_00334,I feel shaky when I think about it.,anxious,,False,anxious,conv_00023
+msg_00333,I keep wondering whether I said the wrong thing.,anxious,,False,anxious,conv_00023
+msg_00287,"Lately, right now I am still boiling over what happened.",angry,,False,angry,conv_00023
+msg_00703,"I feel hurt about what happened, worried about what comes next, and angry that nobody listened.",sad,"anxious,angry",True,"sad,anxious,angry",conv_00023
+msg_00214,I wanted to yell when I heard that.,angry,,False,angry,conv_00024
+msg_00350,"Lately, i feel nervous about what might happen.",anxious,,False,anxious,conv_00024
+msg_00102,I am feeling deeply sad today.,sad,,False,sad,conv_00024
+msg_00494,"Honestly, i went about my day as usual.",neutral,,False,neutral,conv_00024
+msg_00633,"I am hurt by what happened, and the hurt keeps turning into anger. The two feelings seemed to sit together rather than replace each other.",sad,angry,True,"sad,angry",conv_00025
+msg_00091,I am genuinely pleased with myself.,happy,,False,happy,conv_00025
+msg_00182,I am feeling lonely enough that even small things hurt.,sad,,False,sad,conv_00025
+msg_00312,Right now I am worried that I will mess this up.,anxious,,False,anxious,conv_00025
+msg_00061,I finally got to do something I love.,happy,,False,happy,conv_00026
+msg_00297,"Honestly, right now I am irritated by everything right now.",angry,,False,angry,conv_00026
+msg_00031,Right now I am proud of how far I have come.,happy,,False,happy,conv_00026
+msg_00070,I feel proud rather than doubtful for once.,happy,,False,happy,conv_00026
+msg_00508,I do not see a reason to stay alive.,suicidal,,False,suicidal,conv_00027
+msg_00236,I cannot pretend I am not angry.,angry,,False,angry,conv_00027
+msg_00045,I am feeling confident that things are moving in the right direction.,happy,,False,happy,conv_00027
+msg_00399,"Honestly, i keep expecting bad news.",anxious,,False,anxious,conv_00027
+msg_00071,I am feeling proud rather than doubtful for once.,happy,,False,happy,conv_00028
+msg_00165,I feel empty when the day gets quiet.,sad,,False,sad,conv_00028
+msg_00290,"Lately, i wanted to yell when I heard that.",angry,,False,angry,conv_00028
+msg_00213,Right now I am still boiling over what happened.,angry,,False,angry,conv_00028
+msg_00137,Right now I am struggling to get through the day.,sad,,False,sad,conv_00029
+msg_00212,I am still boiling over what happened.,angry,,False,angry,conv_00029
+msg_00517,I keep thinking about ending everything.,suicidal,,False,suicidal,conv_00029
+msg_00149,I feel hurt whenever I remember what happened.,sad,,False,sad,conv_00029
+msg_00576,"Today, i am feeling like death is the only escape.",suicidal,,False,suicidal,conv_00030
+msg_00335,I am feeling shaky when I think about it.,anxious,,False,anxious,conv_00030
+msg_00585,"Today, i am afraid I might hurt myself.",suicidal,,False,suicidal,conv_00030
+msg_00666,"I am angry that they treated me this way, but underneath that anger I mostly feel hurt. I could feel both reactions at once.",angry,sad,True,"angry,sad",conv_00030
+msg_00066,I am feeling warm and grateful inside.,happy,,False,happy,conv_00031
+msg_00526,I am feeling like there is no way out except death.,suicidal,,False,suicidal,conv_00031
+msg_00050,I feel joyful and full of energy.,happy,,False,happy,conv_00031
+msg_00551,"Honestly, i do not want to be alive anymore.",suicidal,,False,suicidal,conv_00031
+msg_00136,I am struggling to get through the day.,sad,,False,sad,conv_00032
+msg_00040,I am feeling lighter after such a great day.,happy,,False,happy,conv_00032
+msg_00549,"Today, right now I am thinking about ending my life.",suicidal,,False,suicidal,conv_00032
+msg_00523,Right now I am thinking about dying more than usual.,suicidal,,False,suicidal,conv_00032
+msg_00007,I am excited about what comes next.,happy,,False,happy,conv_00033
+msg_00210,I am feeling disrespected and frustrated.,angry,,False,angry,conv_00033
+msg_00324,I am feeling uneasy about the whole situation.,anxious,,False,anxious,conv_00033
+msg_00586,"Lately, right now I am afraid I might hurt myself.",suicidal,,False,suicidal,conv_00033
+msg_00412,Nothing really stood out today.,neutral,,False,neutral,conv_00034
+msg_00133,Everything feels dull right now.,sad,,False,sad,conv_00034
+msg_00396,"Honestly, i am feeling on edge tonight.",anxious,,False,anxious,conv_00034
+msg_00042,Right now I am smiling just thinking about what happened.,happy,,False,happy,conv_00034
+msg_00109,I am feeling emotionally drained and low.,sad,,False,sad,conv_00035
+msg_00258,"Honestly, that completely pissed me off.",angry,,False,angry,conv_00035
+msg_00057,I am looking forward to tomorrow.,happy,,False,happy,conv_00035
+msg_00687,"Everything was normal today, but I noticed a quiet sadness in the background. It was difficult to describe the mood with one word.",neutral,sad,True,"neutral,sad",conv_00035
+msg_00616,"The day was ordinary overall, but one small success genuinely made me smile. I could feel both reactions at once.",happy,neutral,True,"happy,neutral",conv_00036
+msg_00025,Right now I am in such a good mood today.,happy,,False,happy,conv_00036
+msg_00156,I am feeling worn out emotionally.,sad,,False,sad,conv_00036
+msg_00211,That was the last straw.,angry,,False,angry,conv_00036
+msg_00261,"Honestly, i feel furious after that conversation.",angry,,False,angry,conv_00037
+msg_00425,Everything went more or less as expected.,neutral,,False,neutral,conv_00037
+msg_00540,I feel unable to keep myself safe.,suicidal,,False,suicidal,conv_00037
+msg_00111,I wish things had turned out differently.,sad,,False,sad,conv_00037
+msg_00083,I am happy with the person I am becoming.,happy,,False,happy,conv_00038
+msg_00052,I am really enjoying this phase of my life.,happy,,False,happy,conv_00038
+msg_00406,I attended class and came home.,neutral,,False,neutral,conv_00038
+msg_00639,"Nothing dramatic happened today, but I still felt unusually low. I noticed the second feeling more once I had calmed down.",sad,neutral,True,"sad,neutral",conv_00038
+msg_00591,"Today, i do not feel safe with my own thoughts.",suicidal,,False,suicidal,conv_00039
+msg_00632,"I am hurt by what happened, and the hurt keeps turning into anger. It was difficult to describe the mood with one word.",sad,angry,True,"sad,angry",conv_00039
+msg_00655,"I am worried about losing this opportunity, and the thought makes me genuinely sad. By the evening, I was still carrying both emotions.",anxious,sad,True,"anxious,sad",conv_00039
+msg_00531,I wish I could disappear permanently.,suicidal,,False,suicidal,conv_00039
+msg_00337,Right now I am worried I am not prepared.,anxious,,False,anxious,conv_00040
+msg_00019,Right now I am thrilled about the opportunity.,happy,,False,happy,conv_00040
+msg_00645,"I was already nervous about the meeting, and the delay made me really irritated. By the evening, I was still carrying both emotions.",anxious,angry,True,"anxious,angry",conv_00040
+msg_00487,"Lately, i had a regular evening at home.",neutral,,False,neutral,conv_00040
+msg_00440,"Honestly, i spent most of the day doing normal things.",neutral,,False,neutral,conv_00041
+msg_00577,"Lately, i am having suicidal thoughts again.",suicidal,,False,suicidal,conv_00041
+msg_00062,I had a fantastic afternoon.,happy,,False,happy,conv_00041
+msg_00624,"I felt lonely today, but a friend's message gave me a small reason to smile. I noticed the second feeling more once I had calmed down.",sad,happy,True,"sad,happy",conv_00041
+msg_00537,I am feeling like I have reached the end of what I can handle.,suicidal,,False,suicidal,conv_00042
+msg_00030,I am proud of how far I have come.,happy,,False,happy,conv_00042
+msg_00376,"Today, i am worried that I will mess this up.",anxious,,False,anxious,conv_00042
+msg_00224,That comment crossed a line.,angry,,False,angry,conv_00042
+msg_00486,"Today, i worked through my usual tasks.",neutral,,False,neutral,conv_00043
+msg_00339,I am feeling restless even though everything is fine.,anxious,,False,anxious,conv_00043
+msg_00447,"Today, i attended class and came home.",neutral,,False,neutral,conv_00043
+msg_00205,I am feeling furious after that conversation.,angry,,False,angry,conv_00043
+msg_00378,"Honestly, right now I am worried that I will mess this up.",anxious,,False,anxious,conv_00044
+msg_00498,"Today, most of today was routine.",neutral,,False,neutral,conv_00044
+msg_00245,I am feeling completely fed up tonight.,angry,,False,angry,conv_00044
+msg_00240,I feel my temper rising every time I think about it.,angry,,False,angry,conv_00044
+msg_00336,I am worried I am not prepared.,anxious,,False,anxious,conv_00045
+msg_00372,"Honestly, i am feeling tense and restless.",anxious,,False,anxious,conv_00045
+msg_00177,I have been carrying this sadness for a while.,sad,,False,sad,conv_00045
+msg_00400,"Today, i keep expecting bad news.",anxious,,False,anxious,conv_00045
+msg_00216,Right now I am irritated by everything right now.,angry,,False,angry,conv_00046
+msg_00569,"Honestly, i keep wishing I were dead.",suicidal,,False,suicidal,conv_00046
+msg_00266,"Lately, i cannot believe they treated me that way.",angry,,False,angry,conv_00046
+msg_00688,"Everything was normal today, but I noticed a quiet sadness in the background. The two feelings seemed to sit together rather than replace each other.",neutral,sad,True,"neutral,sad",conv_00046
+msg_00164,I keep thinking about someone who is no longer close to me.,sad,,False,sad,conv_00047
+msg_00519,I have thoughts of taking my own life.,suicidal,,False,suicidal,conv_00047
+msg_00619,"The day was ordinary overall, but one small success genuinely made me smile. I noticed the second feeling more once I had calmed down.",happy,neutral,True,"happy,neutral",conv_00047
+msg_00448,"Lately, everything was fairly routine today.",neutral,,False,neutral,conv_00047
+msg_00355,"Today, i am feeling nervous about what might happen.",anxious,,False,anxious,conv_00048
+msg_00285,"Honestly, i am still boiling over what happened.",angry,,False,angry,conv_00048
+msg_00418,Things were fairly quiet today.,neutral,,False,neutral,conv_00048
+msg_00105,I feel lonely even when people are around me.,sad,,False,sad,conv_00048
+msg_00115,I am feeling empty after everything that happened.,sad,,False,sad,conv_00049
+msg_00634,"I am hurt by what happened, and the hurt keeps turning into anger. I noticed the second feeling more once I had calmed down.",sad,angry,True,"sad,angry",conv_00049
+msg_00542,I am exhausted from living and want it all to stop.,suicidal,,False,suicidal,conv_00049
+msg_00300,"Honestly, i feel like my patience is gone.",angry,,False,angry,conv_00049
+msg_00093,I feel cheerful enough to tackle tomorrow.,happy,,False,happy,conv_00050
+msg_00008,Right now I am excited about what comes next.,happy,,False,happy,conv_00050
+msg_00090,Today reminded me that good things can happen.,happy,,False,happy,conv_00050
+msg_00535,I keep imagining not being here anymore.,suicidal,,False,suicidal,conv_00050
+msg_00640,"Nothing dramatic happened today, but I still felt unusually low. By the evening, I was still carrying both emotions.",sad,neutral,True,"sad,neutral",conv_00051
+msg_00528,I have been seriously considering suicide.,suicidal,,False,suicidal,conv_00051
+msg_00383,"Lately, i am scared of making the wrong choice.",anxious,,False,anxious,conv_00051
+msg_00382,"Today, i keep second-guessing myself.",anxious,,False,anxious,conv_00051
+msg_00516,I do not feel safe with my own thoughts.,suicidal,,False,suicidal,conv_00052
+msg_00141,I am feeling disconnected from everyone.,sad,,False,sad,conv_00052
+msg_00029,I enjoyed every minute of the event.,happy,,False,happy,conv_00052
+msg_00044,I feel confident that things are moving in the right direction.,happy,,False,happy,conv_00052
+msg_00043,I had a really rewarding day.,happy,,False,happy,conv_00053
+msg_00074,That achievement made me incredibly happy.,happy,,False,happy,conv_00053
+msg_00168,Right now I am having trouble feeling hopeful.,sad,,False,sad,conv_00053
+msg_00559,"Lately, i am feeling like I cannot keep living this way.",suicidal,,False,suicidal,conv_00053
+msg_00617,"The day was ordinary overall, but one small success genuinely made me smile. It was difficult to describe the mood with one word.",happy,neutral,True,"happy,neutral",conv_00054
+msg_00067,I am genuinely excited about my plans.,happy,,False,happy,conv_00054
+msg_00012,I am cheerful and full of energy today.,happy,,False,happy,conv_00054
+msg_00368,"Lately, i feel tense and restless.",anxious,,False,anxious,conv_00054
+msg_00594,"Today, i keep thinking about ending everything.",suicidal,,False,suicidal,conv_00055
+msg_00179,I am feeling crushed by the disappointment.,sad,,False,sad,conv_00055
+msg_00660,"Everything is normal on the surface, but I cannot stop feeling nervous about tomorrow. By the evening, I was still carrying both emotions.",anxious,neutral,True,"anxious,neutral",conv_00055
+msg_00395,"Lately, i am feeling on edge tonight.",anxious,,False,anxious,conv_00055
+msg_00483,"Today, things were fairly quiet today.",neutral,,False,neutral,conv_00056
+msg_00347,"Lately, my thoughts are racing again.",anxious,,False,anxious,conv_00056
+msg_00430,"Lately, today was pretty ordinary.",neutral,,False,neutral,conv_00056
+msg_00178,I feel crushed by the disappointment.,sad,,False,sad,conv_00056
+msg_00466,"Lately, i studied for a while this afternoon.",neutral,,False,neutral,conv_00057
+msg_00454,"Lately, i followed my normal schedule.",neutral,,False,neutral,conv_00057
+msg_00084,Right now I am happy with the person I am becoming.,happy,,False,happy,conv_00057
+msg_00219,I am furious that they blamed me.,angry,,False,angry,conv_00057
+msg_00463,"Lately, nothing really stood out today.",neutral,,False,neutral,conv_00058
+msg_00364,"Today, i cannot seem to relax.",anxious,,False,anxious,conv_00058
+msg_00265,"Today, i am feeling furious after that conversation.",angry,,False,angry,conv_00058
+msg_00470,"Honestly, it was an uneventful day.",neutral,,False,neutral,conv_00058
+msg_00080,I feel optimistic about where this is heading.,happy,,False,happy,conv_00059
+msg_00024,I am in such a good mood today.,happy,,False,happy,conv_00059
+msg_00016,I feel lucky to have people like this around me.,happy,,False,happy,conv_00059
+msg_00391,"Today, my mind will not switch off.",anxious,,False,anxious,conv_00059
+msg_00276,"Honestly, i feel disrespected and frustrated.",angry,,False,angry,conv_00060
+msg_00248,Right now I am still worked up over the argument.,angry,,False,angry,conv_00060
+msg_00705,"Everything went normally, though I was pleased about one thing and nervous about another.",neutral,"happy,anxious",True,"neutral,happy,anxious",conv_00060
+msg_00362,"Lately, i cannot seem to relax.",anxious,,False,anxious,conv_00060
+msg_00358,"Today, i have a knot in my stomach.",anxious,,False,anxious,conv_00061
+msg_00627,I feel sad about what happened and keep worrying that things will get worse. It was difficult to describe the mood with one word.,sad,anxious,True,"sad,anxious",conv_00061
+msg_00138,I felt close to tears for most of the evening.,sad,,False,sad,conv_00061
+msg_00361,"Today, i keep imagining everything going wrong.",anxious,,False,anxious,conv_00061
+msg_00315,Right now I am scared of making the wrong choice.,anxious,,False,anxious,conv_00062
+msg_00034,I had an amazing time with everyone.,happy,,False,happy,conv_00062
+msg_00257,"Lately, that completely pissed me off.",angry,,False,angry,conv_00062
+msg_00431,"Honestly, today was pretty ordinary.",neutral,,False,neutral,conv_00062
+msg_00474,"Today, i spent some time reading and resting.",neutral,,False,neutral,conv_00063
+msg_00010,I feel grateful for how well today turned out.,happy,,False,happy,conv_00063
+msg_00250,I am feeling angry whenever I remember what they said.,angry,,False,angry,conv_00063
+msg_00023,Today gave me a reason to celebrate.,happy,,False,happy,conv_00063
+msg_00311,I am worried that I will mess this up.,anxious,,False,anxious,conv_00064
+msg_00222,I am seriously annoyed with them.,angry,,False,angry,conv_00064
+msg_00573,"Today, i feel like death is the only escape.",suicidal,,False,suicidal,conv_00064
+msg_00684,"The day was routine overall, although I felt genuinely pleased about one small success. I noticed the second feeling more once I had calmed down.",neutral,happy,True,"neutral,happy",conv_00064
+msg_00691,"My day followed the usual routine, but I kept worrying about tomorrow. I could feel both reactions at once.",neutral,anxious,True,"neutral,anxious",conv_00065
+msg_00699,"Nothing unusual happened, except for one interaction that left me irritated. I noticed the second feeling more once I had calmed down.",neutral,angry,True,"neutral,angry",conv_00065
+msg_00589,"Lately, i do not feel safe with my own thoughts.",suicidal,,False,suicidal,conv_00065
+msg_00204,I feel furious after that conversation.,angry,,False,angry,conv_00065
+msg_00409,I followed my normal schedule.,neutral,,False,neutral,conv_00066
+msg_00094,I am feeling cheerful enough to tackle tomorrow.,happy,,False,happy,conv_00066
+msg_00550,"Lately, i do not want to be alive anymore.",suicidal,,False,suicidal,conv_00066
+msg_00293,"Lately, i am irritated by everything right now.",angry,,False,angry,conv_00066
+msg_00469,"Lately, it was an uneventful day.",neutral,,False,neutral,conv_00067
+msg_00185,I am feeling exhausted from pretending everything is fine.,sad,,False,sad,conv_00067
+msg_00568,"Lately, i keep wishing I were dead.",suicidal,,False,suicidal,conv_00067
+msg_00301,I cannot stop worrying about tomorrow.,anxious,,False,anxious,conv_00067
+msg_00154,I have been withdrawing from everyone lately.,sad,,False,sad,conv_00068
+msg_00076,I am feeling positive about what is ahead.,happy,,False,happy,conv_00068
+msg_00353,"Lately, i am feeling nervous about what might happen.",anxious,,False,anxious,conv_00068
+msg_00069,I had a beautiful moment today.,happy,,False,happy,conv_00068
+msg_00389,"Lately, my mind will not switch off.",anxious,,False,anxious,conv_00069
+msg_00189,I do not have the energy to enjoy anything tonight.,sad,,False,sad,conv_00069
+msg_00272,"Lately, right now I am fed up with being ignored.",angry,,False,angry,conv_00069
+msg_00237,I am in no mood to forgive them yet.,angry,,False,angry,conv_00069
+msg_00089,I am feeling like celebrating tonight.,happy,,False,happy,conv_00070
+msg_00597,"Today, i cannot imagine continuing to live like this.",suicidal,,False,suicidal,conv_00070
+msg_00118,I am feeling hurt by how things ended.,sad,,False,sad,conv_00070
+msg_00126,I feel disappointed and emotionally exhausted.,sad,,False,sad,conv_00070
+msg_00578,"Honestly, i am having suicidal thoughts again.",suicidal,,False,suicidal,conv_00071
+msg_00239,That situation made me furious.,angry,,False,angry,conv_00071
+msg_00001,I am genuinely happy today.,happy,,False,happy,conv_00071
+msg_00698,"Nothing unusual happened, except for one interaction that left me irritated. The two feelings seemed to sit together rather than replace each other.",neutral,angry,True,"neutral,angry",conv_00071
+msg_00291,"Honestly, i wanted to yell when I heard that.",angry,,False,angry,conv_00072
+msg_00488,"Honestly, i had a regular evening at home.",neutral,,False,neutral,conv_00072
+msg_00351,"Honestly, i feel nervous about what might happen.",anxious,,False,anxious,conv_00072
+msg_00279,"Honestly, i am feeling disrespected and frustrated.",angry,,False,angry,conv_00072
+msg_00117,I feel hurt by how things ended.,sad,,False,sad,conv_00073
+msg_00229,I am angry that nobody listened.,angry,,False,angry,conv_00073
+msg_00394,"Today, i feel on edge tonight.",anxious,,False,anxious,conv_00073
+msg_00329,I am feeling overwhelmed by uncertainty.,anxious,,False,anxious,conv_00073
+msg_00275,"Lately, i feel disrespected and frustrated.",angry,,False,angry,conv_00074
+msg_00452,"Honestly, i do not have much to report.",neutral,,False,neutral,conv_00074
+msg_00145,I feel worn down by sadness.,sad,,False,sad,conv_00074
+msg_00607,"I am thrilled about the opportunity, although I keep worrying that I might mess it up. It was difficult to describe the mood with one word.",happy,anxious,True,"happy,anxious",conv_00074
+msg_00446,"Honestly, i attended class and came home.",neutral,,False,neutral,conv_00075
+msg_00638,"Nothing dramatic happened today, but I still felt unusually low. The two feelings seemed to sit together rather than replace each other.",sad,neutral,True,"sad,neutral",conv_00075
+msg_00513,Right now I am having suicidal thoughts again.,suicidal,,False,suicidal,conv_00075
+msg_00269,"Lately, i am fed up with being ignored.",angry,,False,angry,conv_00075
+msg_00674,"I am still annoyed about the argument, although I was happy about how the rest of the day went. I noticed the second feeling more once I had calmed down.",angry,happy,True,"angry,happy",conv_00076
+msg_00047,Right now I am delighted with the result.,happy,,False,happy,conv_00076
+msg_00262,"Today, i feel furious after that conversation.",angry,,False,angry,conv_00076
+msg_00196,I wish I could feel like myself again.,sad,,False,sad,conv_00076
+msg_00706,"Most of the day was ordinary, but one event left me both hurt and irritated.",neutral,"sad,angry",True,"neutral,sad,angry",conv_00077
+msg_00590,"Honestly, i do not feel safe with my own thoughts.",suicidal,,False,suicidal,conv_00077
+msg_00108,I feel emotionally drained and low.,sad,,False,sad,conv_00077
+msg_00545,"Honestly, i am thinking about ending my life.",suicidal,,False,suicidal,conv_00077
+msg_00527,I keep thinking everyone would be better without me.,suicidal,,False,suicidal,conv_00078
+msg_00332,I cannot settle my thoughts.,anxious,,False,anxious,conv_00078
+msg_00101,I feel deeply sad today.,sad,,False,sad,conv_00078
+msg_00495,"Today, i went about my day as usual.",neutral,,False,neutral,conv_00078
+msg_00631,"I am hurt by what happened, and the hurt keeps turning into anger. I could feel both reactions at once.",sad,angry,True,"sad,angry",conv_00079
+msg_00343,I cannot stop worrying about things I cannot control.,anxious,,False,anxious,conv_00079
+msg_00180,I cannot pretend I am okay today.,sad,,False,sad,conv_00079
+msg_00305,I have a knot in my stomach.,anxious,,False,anxious,conv_00079
+msg_00552,"Today, i do not want to be alive anymore.",suicidal,,False,suicidal,conv_00080
+msg_00678,"Most of the day was normal, but one interaction really irritated me. The two feelings seemed to sit together rather than replace each other.",angry,neutral,True,"angry,neutral",conv_00080
+msg_00150,I am feeling hurt whenever I remember what happened.,sad,,False,sad,conv_00080
+msg_00125,I keep replaying a painful memory.,sad,,False,sad,conv_00080
+msg_00558,"Today, i feel like I cannot keep living this way.",suicidal,,False,suicidal,conv_00081
+msg_00612,"I am happy about the result, but I am still annoyed by how I was treated. It was difficult to describe the mood with one word.",happy,angry,True,"happy,angry",conv_00081
+msg_00186,Today left me feeling hopeless about the situation.,sad,,False,sad,conv_00081
+msg_00438,"Today, nothing unusual happened today.",neutral,,False,neutral,conv_00081
+msg_00421,Nothing significant changed today.,neutral,,False,neutral,conv_00082
+msg_00696,"Nothing unusual happened, except for one interaction that left me irritated. I could feel both reactions at once.",neutral,angry,True,"neutral,angry",conv_00082
+msg_00354,"Honestly, i am feeling nervous about what might happen.",anxious,,False,anxious,conv_00082
+msg_00322,I cannot stop checking my phone.,anxious,,False,anxious,conv_00082
+msg_00651,"I am worried about losing this opportunity, and the thought makes me genuinely sad. I could feel both reactions at once.",anxious,sad,True,"anxious,sad",conv_00083
+msg_00143,Right now I am grieving what I thought I would have.,sad,,False,sad,conv_00083
+msg_00142,I am grieving what I thought I would have.,sad,,False,sad,conv_00083
+msg_00588,"Today, right now I am afraid I might hurt myself.",suicidal,,False,suicidal,conv_00083
+msg_00321,Right now I am nervous about being judged.,anxious,,False,anxious,conv_00084
+msg_00020,I finally accomplished something I worked hard for.,happy,,False,happy,conv_00084
+msg_00173,I am feeling discouraged by how little has changed.,sad,,False,sad,conv_00084
+msg_00572,"Honestly, i feel like death is the only escape.",suicidal,,False,suicidal,conv_00084
+msg_00313,I keep second-guessing myself.,anxious,,False,anxious,conv_00085
+msg_00657,"Everything is normal on the surface, but I cannot stop feeling nervous about tomorrow. It was difficult to describe the mood with one word.",anxious,neutral,True,"anxious,neutral",conv_00085
+msg_00013,Right now I am cheerful and full of energy today.,happy,,False,happy,conv_00085
+msg_00306,I keep imagining everything going wrong.,anxious,,False,anxious,conv_00085
+msg_00026,I feel optimistic about the future.,happy,,False,happy,conv_00086
+msg_00571,"Lately, i feel like death is the only escape.",suicidal,,False,suicidal,conv_00086
+msg_00170,I am feeling like I am just going through the motions.,sad,,False,sad,conv_00086
+msg_00491,"Honestly, nothing significant changed today.",neutral,,False,neutral,conv_00086
+msg_00413,I studied for a while this afternoon.,neutral,,False,neutral,conv_00087
+msg_00246,I wanted to walk away before I said something harsh.,angry,,False,angry,conv_00087
+msg_00299,"Lately, i feel like my patience is gone.",angry,,False,angry,conv_00087
+msg_00444,"Today, the day passed without much happening.",neutral,,False,neutral,conv_00087
+msg_00273,"Honestly, right now I am fed up with being ignored.",angry,,False,angry,conv_00088
+msg_00155,I feel worn out emotionally.,sad,,False,sad,conv_00088
+msg_00127,I am feeling disappointed and emotionally exhausted.,sad,,False,sad,conv_00088
+msg_00482,"Honestly, things were fairly quiet today.",neutral,,False,neutral,conv_00088
+msg_00342,Right now I am nervous waiting for their reply.,anxious,,False,anxious,conv_00089
+msg_00288,"Honestly, right now I am still boiling over what happened.",angry,,False,angry,conv_00089
+msg_00114,I feel empty after everything that happened.,sad,,False,sad,conv_00089
+msg_00555,"Today, i keep having thoughts about killing myself.",suicidal,,False,suicidal,conv_00089
+msg_00174,I wanted comfort but did not know how to ask for it.,sad,,False,sad,conv_00090
+msg_00405,The day passed without much happening.,neutral,,False,neutral,conv_00090
+msg_00058,Right now I am looking forward to tomorrow.,happy,,False,happy,conv_00090
+msg_00465,"Today, nothing really stood out today.",neutral,,False,neutral,conv_00090
+msg_00223,Right now I am seriously annoyed with them.,angry,,False,angry,conv_00091
+msg_00281,"Lately, that was the last straw.",angry,,False,angry,conv_00091
+msg_00018,I am thrilled about the opportunity.,happy,,False,happy,conv_00091
+msg_00481,"Lately, things were fairly quiet today.",neutral,,False,neutral,conv_00091
+msg_00323,I feel uneasy about the whole situation.,anxious,,False,anxious,conv_00092
+msg_00256,"Today, right now I am really angry about what happened.",angry,,False,angry,conv_00092
+msg_00427,Nothing major happened today.,neutral,,False,neutral,conv_00092
+msg_00676,"Most of the day was normal, but one interaction really irritated me. I could feel both reactions at once.",angry,neutral,True,"angry,neutral",conv_00092
+msg_00191,I am feeling sadder than I expected to.,sad,,False,sad,conv_00093
+msg_00449,"Honestly, everything was fairly routine today.",neutral,,False,neutral,conv_00093
+msg_00623,"I felt lonely today, but a friend's message gave me a small reason to smile. The two feelings seemed to sit together rather than replace each other.",sad,happy,True,"sad,happy",conv_00093
+msg_00622,"I felt lonely today, but a friend's message gave me a small reason to smile. It was difficult to describe the mood with one word.",sad,happy,True,"sad,happy",conv_00093
+msg_00095,I had so much fun that I lost track of time.,happy,,False,happy,conv_00094
+msg_00181,I feel lonely enough that even small things hurt.,sad,,False,sad,conv_00094
+msg_00302,My thoughts are racing again.,anxious,,False,anxious,conv_00094
+msg_00437,"Honestly, nothing unusual happened today.",neutral,,False,neutral,conv_00094
+msg_00518,I cannot imagine continuing to live like this.,suicidal,,False,suicidal,conv_00095
+msg_00539,I do not see anything worth staying alive for.,suicidal,,False,suicidal,conv_00095
+msg_00582,"Today, right now I am having suicidal thoughts again.",suicidal,,False,suicidal,conv_00095
+msg_00524,I do not know how much longer I can keep going.,suicidal,,False,suicidal,conv_00095
+msg_00006,Today was full of things that made me happy.,happy,,False,happy,conv_00096
+msg_00692,"My day followed the usual routine, but I kept worrying about tomorrow. It was difficult to describe the mood with one word.",neutral,anxious,True,"neutral,anxious",conv_00096
+msg_00046,I am delighted with the result.,happy,,False,happy,conv_00096
+msg_00450,"Today, everything was fairly routine today.",neutral,,False,neutral,conv_00096
+msg_00532,I do not want to wake up tomorrow.,suicidal,,False,suicidal,conv_00097
+msg_00172,I feel discouraged by how little has changed.,sad,,False,sad,conv_00097
+msg_00017,I am feeling lucky to have people like this around me.,happy,,False,happy,conv_00097
+msg_00049,I got exactly the news I was hoping for.,happy,,False,happy,conv_00097
+msg_00682,"The day was routine overall, although I felt genuinely pleased about one small success. It was difficult to describe the mood with one word.",neutral,happy,True,"neutral,happy",conv_00098
+msg_00646,"I am excited about tomorrow, but my mind keeps worrying about everything that could go wrong. I could feel both reactions at once.",anxious,happy,True,"anxious,happy",conv_00098
+msg_00004,I feel proud of myself for finishing this.,happy,,False,happy,conv_00098
+msg_00694,"My day followed the usual routine, but I kept worrying about tomorrow. I noticed the second feeling more once I had calmed down.",neutral,anxious,True,"neutral,anxious",conv_00098
+msg_00445,"Lately, i attended class and came home.",neutral,,False,neutral,conv_00099
+msg_00317,I feel on edge tonight.,anxious,,False,anxious,conv_00099
+msg_00650,"I am excited about tomorrow, but my mind keeps worrying about everything that could go wrong. By the evening, I was still carrying both emotions.",anxious,happy,True,"anxious,happy",conv_00099
+msg_00284,"Lately, i am still boiling over what happened.",angry,,False,angry,conv_00099
+msg_00097,Right now I am grateful for today's little victories.,happy,,False,happy,conv_00100
+msg_00286,"Today, i am still boiling over what happened.",angry,,False,angry,conv_00100
+msg_00423,Most of today was routine.,neutral,,False,neutral,conv_00100
+msg_00226,I am feeling resentful about how things were handled.,angry,,False,angry,conv_00100
+msg_00027,I am feeling optimistic about the future.,happy,,False,happy,conv_00101
+msg_00583,"Lately, i am afraid I might hurt myself.",suicidal,,False,suicidal,conv_00101
+msg_00264,"Honestly, i am feeling furious after that conversation.",angry,,False,angry,conv_00101
+msg_00051,I am feeling joyful and full of energy.,happy,,False,happy,conv_00101
+msg_00365,"Lately, i have been overthinking every little detail.",anxious,,False,anxious,conv_00102
+msg_00230,Right now I am angry that nobody listened.,angry,,False,angry,conv_00102
+msg_00038,Everything feels wonderfully positive today.,happy,,False,happy,conv_00102
+msg_00158,I feel like crying whenever I think about it.,sad,,False,sad,conv_00102
+msg_00238,Right now I am in no mood to forgive them yet.,angry,,False,angry,conv_00103
+msg_00677,"Most of the day was normal, but one interaction really irritated me. It was difficult to describe the mood with one word.",angry,neutral,True,"angry,neutral",conv_00103
+msg_00375,"Honestly, i am worried that I will mess this up.",anxious,,False,anxious,conv_00103
+msg_00371,"Lately, i am feeling tense and restless.",anxious,,False,anxious,conv_00103
+msg_00176,I am feeling emotionally fragile today.,sad,,False,sad,conv_00104
+msg_00598,"Lately, i have thoughts of taking my own life.",suicidal,,False,suicidal,conv_00104
+msg_00685,"The day was routine overall, although I felt genuinely pleased about one small success. By the evening, I was still carrying both emotions.",neutral,happy,True,"neutral,happy",conv_00104
+msg_00520,I feel completely hopeless and want my life to end.,suicidal,,False,suicidal,conv_00104
+msg_00195,I am feeling hurt and forgotten.,sad,,False,sad,conv_00105
+msg_00600,"Today, i have thoughts of taking my own life.",suicidal,,False,suicidal,conv_00105
+msg_00608,"I am thrilled about the opportunity, although I keep worrying that I might mess it up. The two feelings seemed to sit together rather than replace each other.",happy,anxious,True,"happy,anxious",conv_00105
+msg_00435,"Today, i went through my usual routine.",neutral,,False,neutral,conv_00105
+msg_00649,"I am excited about tomorrow, but my mind keeps worrying about everything that could go wrong. I noticed the second feeling more once I had calmed down.",anxious,happy,True,"anxious,happy",conv_00106
+msg_00458,"Honestly, the day was neither especially good nor bad.",neutral,,False,neutral,conv_00106
+msg_00681,"The day was routine overall, although I felt genuinely pleased about one small success. I could feel both reactions at once.",neutral,happy,True,"neutral,happy",conv_00106
+msg_00587,"Honestly, right now I am afraid I might hurt myself.",suicidal,,False,suicidal,conv_00106
+msg_00606,"I am thrilled about the opportunity, although I keep worrying that I might mess it up. I could feel both reactions at once.",happy,anxious,True,"happy,anxious",conv_00107
+msg_00068,Right now I am genuinely excited about my plans.,happy,,False,happy,conv_00107
+msg_00501,I am thinking about ending my life.,suicidal,,False,suicidal,conv_00107
+msg_00169,I feel like I am just going through the motions.,sad,,False,sad,conv_00107
+msg_00457,"Lately, the day was neither especially good nor bad.",neutral,,False,neutral,conv_00108
+msg_00163,I am feeling invisible to everyone.,sad,,False,sad,conv_00108
+msg_00310,I am feeling tense and restless.,anxious,,False,anxious,conv_00108
+msg_00194,I feel hurt and forgotten.,sad,,False,sad,conv_00108
+msg_00604,"I had a wonderful time with my friends, but I still missed someone who could not be there. I noticed the second feeling more once I had calmed down.",happy,sad,True,"happy,sad",conv_00109
+msg_00366,"Honestly, i have been overthinking every little detail.",anxious,,False,anxious,conv_00109
+msg_00384,"Honestly, i am scared of making the wrong choice.",anxious,,False,anxious,conv_00109
+msg_00636,"Nothing dramatic happened today, but I still felt unusually low. I could feel both reactions at once.",sad,neutral,True,"sad,neutral",conv_00109
+msg_00663,"I am furious about what happened, but I am also worried about what will happen next. The two feelings seemed to sit together rather than replace each other.",angry,anxious,True,"angry,anxious",conv_00110
+msg_00153,I am feeling miserable about how things turned out.,sad,,False,sad,conv_00110
+msg_00679,"Most of the day was normal, but one interaction really irritated me. I noticed the second feeling more once I had calmed down.",angry,neutral,True,"angry,neutral",conv_00110
+msg_00484,"Lately, i worked through my usual tasks.",neutral,,False,neutral,conv_00110
+msg_00227,I am frustrated beyond words.,angry,,False,angry,conv_00111
+msg_00697,"Nothing unusual happened, except for one interaction that left me irritated. It was difficult to describe the mood with one word.",neutral,angry,True,"neutral,angry",conv_00111
+msg_00579,"Today, i am having suicidal thoughts again.",suicidal,,False,suicidal,conv_00111
+msg_00104,I miss someone I used to talk to every day.,sad,,False,sad,conv_00111
+msg_00422,I went about my day as usual.,neutral,,False,neutral,conv_00112
+msg_00504,I keep having thoughts about killing myself.,suicidal,,False,suicidal,conv_00112
+msg_00534,Right now I am worried I might act on my suicidal thoughts.,suicidal,,False,suicidal,conv_00112
+msg_00075,I feel positive about what is ahead.,happy,,False,happy,conv_00112
+msg_00116,I have been struggling to find any joy lately.,sad,,False,sad,conv_00113
+msg_00408,I do not have much to report.,neutral,,False,neutral,conv_00113
+msg_00680,"Most of the day was normal, but one interaction really irritated me. By the evening, I was still carrying both emotions.",angry,neutral,True,"angry,neutral",conv_00113
+msg_00120,I spent most of today feeling down.,sad,,False,sad,conv_00113
+msg_00054,I feel encouraged by my progress.,happy,,False,happy,conv_00114
+msg_00152,I feel miserable about how things turned out.,sad,,False,sad,conv_00114
+msg_00404,I spent most of the day doing normal things.,neutral,,False,neutral,conv_00114
+msg_00665,"I am furious about what happened, but I am also worried about what will happen next. By the evening, I was still carrying both emotions.",angry,anxious,True,"angry,anxious",conv_00114
+msg_00208,Right now I am fed up with being ignored.,angry,,False,angry,conv_00115
+msg_00468,"Today, i studied for a while this afternoon.",neutral,,False,neutral,conv_00115
+msg_00500,"Honestly, i did some studying and took a break.",neutral,,False,neutral,conv_00115
+msg_00480,"Today, i did what I normally do.",neutral,,False,neutral,conv_00115
+msg_00544,"Lately, i am thinking about ending my life.",suicidal,,False,suicidal,conv_00116
+msg_00009,I had so much fun with my friends.,happy,,False,happy,conv_00116
+msg_00570,"Today, i keep wishing I were dead.",suicidal,,False,suicidal,conv_00116
+msg_00037,Right now I am excited to tell my family the good news.,happy,,False,happy,conv_00116
+msg_00453,"Today, i do not have much to report.",neutral,,False,neutral,conv_00117
+msg_00140,I feel disconnected from everyone.,sad,,False,sad,conv_00117
+msg_00254,"Lately, right now I am really angry about what happened.",angry,,False,angry,conv_00117
+msg_00304,I am feeling nervous about what might happen.,anxious,,False,anxious,conv_00117
+msg_00530,Right now I am struggling with thoughts of killing myself.,suicidal,,False,suicidal,conv_00118
+msg_00533,I am worried I might act on my suicidal thoughts.,suicidal,,False,suicidal,conv_00118
+msg_00369,"Honestly, i feel tense and restless.",anxious,,False,anxious,conv_00118
+msg_00060,"I am feeling calm, satisfied, and happy.",happy,,False,happy,conv_00118
+msg_00112,My heart feels heavy today.,sad,,False,sad,conv_00119
+msg_00502,Right now I am thinking about ending my life.,suicidal,,False,suicidal,conv_00119
+msg_00515,Right now I am afraid I might hurt myself.,suicidal,,False,suicidal,conv_00119
+msg_00643,"I was already nervous about the meeting, and the delay made me really irritated. The two feelings seemed to sit together rather than replace each other.",anxious,angry,True,"anxious,angry",conv_00119
+msg_00263,"Lately, i am feeling furious after that conversation.",angry,,False,angry,conv_00120
+msg_00609,"I am thrilled about the opportunity, although I keep worrying that I might mess it up. I noticed the second feeling more once I had calmed down.",happy,anxious,True,"happy,anxious",conv_00120
+msg_00298,"Today, right now I am irritated by everything right now.",angry,,False,angry,conv_00120
+msg_00478,"Lately, i did what I normally do.",neutral,,False,neutral,conv_00120
+msg_00415,I spent some time reading and resting.,neutral,,False,neutral,conv_00121
+msg_00151,I cannot find much to look forward to.,sad,,False,sad,conv_00121
+msg_00434,"Honestly, i went through my usual routine.",neutral,,False,neutral,conv_00121
+msg_00560,"Honestly, i am feeling like I cannot keep living this way.",suicidal,,False,suicidal,conv_00121
+msg_00441,"Today, i spent most of the day doing normal things.",neutral,,False,neutral,conv_00122
+msg_00671,"I am still annoyed about the argument, although I was happy about how the rest of the day went. I could feel both reactions at once.",angry,happy,True,"angry,happy",conv_00122
+msg_00267,"Honestly, i cannot believe they treated me that way.",angry,,False,angry,conv_00122
+msg_00614,"I am happy about the result, but I am still annoyed by how I was treated. I noticed the second feeling more once I had calmed down.",happy,angry,True,"happy,angry",conv_00122
+msg_00360,"Honestly, i keep imagining everything going wrong.",anxious,,False,anxious,conv_00123
+msg_00626,I feel sad about what happened and keep worrying that things will get worse. I could feel both reactions at once.,sad,anxious,True,"sad,anxious",conv_00123
+msg_00039,I feel lighter after such a great day.,happy,,False,happy,conv_00123
+msg_00128,I feel alone with my thoughts tonight.,sad,,False,sad,conv_00123
+msg_00424,I did some studying and took a break.,neutral,,False,neutral,conv_00124
+msg_00417,I did what I normally do.,neutral,,False,neutral,conv_00124
+msg_00489,"Today, i had a regular evening at home.",neutral,,False,neutral,conv_00124
+msg_00308,I have been overthinking every little detail.,anxious,,False,anxious,conv_00124
+msg_00199,I am feeling unusually low this evening.,sad,,False,sad,conv_00125
+msg_00352,"Today, i feel nervous about what might happen.",anxious,,False,anxious,conv_00125
+msg_00507,I have been thinking seriously about suicide.,suicidal,,False,suicidal,conv_00125
+msg_00147,I am having a really low day.,sad,,False,sad,conv_00125
+msg_00451,"Lately, i do not have much to report.",neutral,,False,neutral,conv_00126
+msg_00654,"I am worried about losing this opportunity, and the thought makes me genuinely sad. I noticed the second feeling more once I had calmed down.",anxious,sad,True,"anxious,sad",conv_00126
+msg_00529,I am struggling with thoughts of killing myself.,suicidal,,False,suicidal,conv_00126
+msg_00420,I had a regular evening at home.,neutral,,False,neutral,conv_00126
+msg_00443,"Honestly, the day passed without much happening.",neutral,,False,neutral,conv_00127
+msg_00628,I feel sad about what happened and keep worrying that things will get worse. The two feelings seemed to sit together rather than replace each other.,sad,anxious,True,"sad,anxious",conv_00127
+msg_00148,Right now I am having a really low day.,sad,,False,sad,conv_00127
+msg_00553,"Lately, i keep having thoughts about killing myself.",suicidal,,False,suicidal,conv_00127
+msg_00349,"Today, my thoughts are racing again.",anxious,,False,anxious,conv_00128
+msg_00464,"Honestly, nothing really stood out today.",neutral,,False,neutral,conv_00128
+msg_00326,Right now I am afraid something will go wrong.,anxious,,False,anxious,conv_00128
+msg_00187,I feel a deep sense of loss.,sad,,False,sad,conv_00128
+msg_00124,I cannot shake this sadness.,sad,,False,sad,conv_00129
+msg_00599,"Honestly, i have thoughts of taking my own life.",suicidal,,False,suicidal,conv_00129
+msg_00144,I have lost interest in things I normally like.,sad,,False,sad,conv_00129
+msg_00672,"I am still annoyed about the argument, although I was happy about how the rest of the day went. It was difficult to describe the mood with one word.",angry,happy,True,"angry,happy",conv_00129
+msg_00198,I feel unusually low this evening.,sad,,False,sad,conv_00130
+msg_00280,"Today, i am feeling disrespected and frustrated.",angry,,False,angry,conv_00130
+msg_00294,"Honestly, i am irritated by everything right now.",angry,,False,angry,conv_00130
+msg_00401,Today was pretty ordinary.,neutral,,False,neutral,conv_00130
+msg_00123,I am feeling forgotten by people I care about.,sad,,False,sad,conv_00131
+msg_00184,I feel exhausted from pretending everything is fine.,sad,,False,sad,conv_00131
+msg_00203,That completely pissed me off.,angry,,False,angry,conv_00131
+msg_00439,"Lately, i spent most of the day doing normal things.",neutral,,False,neutral,conv_00131
+msg_00247,I am still worked up over the argument.,angry,,False,angry,conv_00132
+msg_00416,Today felt like a normal weekday.,neutral,,False,neutral,conv_00132
+msg_00625,"I felt lonely today, but a friend's message gave me a small reason to smile. By the evening, I was still carrying both emotions.",sad,happy,True,"sad,happy",conv_00132
+msg_00130,I wish someone understood how difficult this feels.,sad,,False,sad,conv_00132
+msg_00403,Nothing unusual happened today.,neutral,,False,neutral,conv_00133
+msg_00653,"I am worried about losing this opportunity, and the thought makes me genuinely sad. The two feelings seemed to sit together rather than replace each other.",anxious,sad,True,"anxious,sad",conv_00133
+msg_00548,"Honestly, right now I am thinking about ending my life.",suicidal,,False,suicidal,conv_00133
+msg_00220,Right now I am furious that they blamed me.,angry,,False,angry,conv_00133
+msg_00641,"I was already nervous about the meeting, and the delay made me really irritated. I could feel both reactions at once.",anxious,angry,True,"anxious,angry",conv_00134
+msg_00536,I feel like I have reached the end of what I can handle.,suicidal,,False,suicidal,conv_00134
+msg_00644,"I was already nervous about the meeting, and the delay made me really irritated. I noticed the second feeling more once I had calmed down.",anxious,angry,True,"anxious,angry",conv_00134
+msg_00543,Right now I am exhausted from living and want it all to stop.,suicidal,,False,suicidal,conv_00134
+msg_00387,"Honestly, right now I am scared of making the wrong choice.",anxious,,False,anxious,conv_00135
+msg_00683,"The day was routine overall, although I felt genuinely pleased about one small success. The two feelings seemed to sit together rather than replace each other.",neutral,happy,True,"neutral,happy",conv_00135
+msg_00510,I feel like death is the only escape.,suicidal,,False,suicidal,conv_00135
+msg_00268,"Today, i cannot believe they treated me that way.",angry,,False,angry,conv_00135
+msg_00442,"Lately, the day passed without much happening.",neutral,,False,neutral,conv_00136
+msg_00497,"Honestly, most of today was routine.",neutral,,False,neutral,conv_00136
+msg_00113,I have no energy for things I normally enjoy.,sad,,False,sad,conv_00136
+msg_00233,I am feeling provoked and upset.,angry,,False,angry,conv_00136
+msg_00613,"I am happy about the result, but I am still annoyed by how I was treated. The two feelings seemed to sit together rather than replace each other.",happy,angry,True,"happy,angry",conv_00137
+msg_00374,"Lately, i am worried that I will mess this up.",anxious,,False,anxious,conv_00137
+msg_00234,I am tired of being treated like this.,angry,,False,angry,conv_00137
+msg_00668,"I am angry that they treated me this way, but underneath that anger I mostly feel hurt. The two feelings seemed to sit together rather than replace each other.",angry,sad,True,"angry,sad",conv_00137
+msg_00318,I am feeling on edge tonight.,anxious,,False,anxious,conv_00138
+msg_00411,I mostly stayed busy with everyday tasks.,neutral,,False,neutral,conv_00138
+msg_00630,"I feel sad about what happened and keep worrying that things will get worse. By the evening, I was still carrying both emotions.",sad,anxious,True,"sad,anxious",conv_00138
+msg_00359,"Lately, i keep imagining everything going wrong.",anxious,,False,anxious,conv_00138
+msg_00259,"Today, that completely pissed me off.",angry,,False,angry,conv_00139
+msg_00283,"Today, that was the last straw.",angry,,False,angry,conv_00139
+msg_00377,"Lately, right now I am worried that I will mess this up.",anxious,,False,anxious,conv_00139
+msg_00385,"Today, i am scared of making the wrong choice.",anxious,,False,anxious,conv_00139
+msg_00225,I feel resentful about how things were handled.,angry,,False,angry,conv_00140
+msg_00670,"I am angry that they treated me this way, but underneath that anger I mostly feel hurt. By the evening, I was still carrying both emotions.",angry,sad,True,"angry,sad",conv_00140
+msg_00581,"Honestly, right now I am having suicidal thoughts again.",suicidal,,False,suicidal,conv_00140
+msg_00473,"Honestly, i spent some time reading and resting.",neutral,,False,neutral,conv_00140
+msg_00348,"Honestly, my thoughts are racing again.",anxious,,False,anxious,conv_00141
+msg_00506,I am feeling like I cannot keep living this way.,suicidal,,False,suicidal,conv_00141
+msg_00695,"My day followed the usual routine, but I kept worrying about tomorrow. By the evening, I was still carrying both emotions.",neutral,anxious,True,"neutral,anxious",conv_00141
+msg_00652,"I am worried about losing this opportunity, and the thought makes me genuinely sad. It was difficult to describe the mood with one word.",anxious,sad,True,"anxious,sad",conv_00141
+msg_00635,"I am hurt by what happened, and the hurt keeps turning into anger. By the evening, I was still carrying both emotions.",sad,angry,True,"sad,angry",conv_00142
+msg_00658,"Everything is normal on the surface, but I cannot stop feeling nervous about tomorrow. The two feelings seemed to sit together rather than replace each other.",anxious,neutral,True,"anxious,neutral",conv_00142
+msg_00557,"Honestly, i feel like I cannot keep living this way.",suicidal,,False,suicidal,conv_00142
+msg_00086,Something I wanted finally happened.,happy,,False,happy,conv_00142
+msg_00243,Right now I am annoyed that my concerns were dismissed.,angry,,False,angry,conv_00143
+msg_00160,I am disappointed in myself tonight.,sad,,False,sad,conv_00143
+msg_00525,I feel like there is no way out except death.,suicidal,,False,suicidal,conv_00143
+msg_00036,I am excited to tell my family the good news.,happy,,False,happy,conv_00143
+msg_00541,I am feeling unable to keep myself safe.,suicidal,,False,suicidal,conv_00144
+msg_00171,I miss the person I was before all this.,sad,,False,sad,conv_00144
+msg_00603,"I had a wonderful time with my friends, but I still missed someone who could not be there. The two feelings seemed to sit together rather than replace each other.",happy,sad,True,"happy,sad",conv_00144
+msg_00595,"Lately, i cannot imagine continuing to live like this.",suicidal,,False,suicidal,conv_00144
+msg_00690,"Everything was normal today, but I noticed a quiet sadness in the background. By the evening, I was still carrying both emotions.",neutral,sad,True,"neutral,sad",conv_00145
+msg_00096,I am grateful for today's little victories.,happy,,False,happy,conv_00145
+msg_00564,"Today, i have been thinking seriously about suicide.",suicidal,,False,suicidal,conv_00145
+msg_00241,I am feeling my temper rising every time I think about it.,angry,,False,angry,conv_00145
+msg_00575,"Honestly, i am feeling like death is the only escape.",suicidal,,False,suicidal,conv_00146
+msg_00461,"Honestly, i mostly stayed busy with everyday tasks.",neutral,,False,neutral,conv_00146
+msg_00554,"Honestly, i keep having thoughts about killing myself.",suicidal,,False,suicidal,conv_00146
+msg_00618,"The day was ordinary overall, but one small success genuinely made me smile. The two feelings seemed to sit together rather than replace each other.",happy,neutral,True,"happy,neutral",conv_00146
+msg_00207,I am fed up with being ignored.,angry,,False,angry,conv_00147
+msg_00393,"Honestly, i feel on edge tonight.",anxious,,False,anxious,conv_00147
+msg_00398,"Lately, i keep expecting bad news.",anxious,,False,anxious,conv_00147
+msg_00596,"Honestly, i cannot imagine continuing to live like this.",suicidal,,False,suicidal,conv_00147
+msg_00218,I am feeling like my patience is gone.,angry,,False,angry,conv_00148
+msg_00005,I am feeling proud of myself for finishing this.,happy,,False,happy,conv_00148
+msg_00629,I feel sad about what happened and keep worrying that things will get worse. I noticed the second feeling more once I had calmed down.,sad,anxious,True,"sad,anxious",conv_00148
+msg_00547,"Lately, right now I am thinking about ending my life.",suicidal,,False,suicidal,conv_00148
+msg_00099,I am feeling hopeful because things are improving.,happy,,False,happy,conv_00149
+msg_00574,"Lately, i am feeling like death is the only escape.",suicidal,,False,suicidal,conv_00149
+msg_00407,Everything was fairly routine today.,neutral,,False,neutral,conv_00149
+msg_00503,I do not want to be alive anymore.,suicidal,,False,suicidal,conv_00149
+msg_00048,Today felt bright from beginning to end.,happy,,False,happy,conv_00150
+msg_00033,I am feeling genuinely appreciated today.,happy,,False,happy,conv_00150
+msg_00201,I am really angry about what happened.,angry,,False,angry,conv_00150
+msg_00135,I am feeling a quiet ache that will not go away.,sad,,False,sad,conv_00150
+msg_00028,That message made my whole day better.,happy,,False,happy,conv_00151
+msg_00620,"The day was ordinary overall, but one small success genuinely made me smile. By the evening, I was still carrying both emotions.",happy,neutral,True,"happy,neutral",conv_00151
+msg_00231,I keep replaying the argument and getting mad.,angry,,False,angry,conv_00151
+msg_00490,"Lately, nothing significant changed today.",neutral,,False,neutral,conv_00151
+msg_00379,"Today, right now I am worried that I will mess this up.",anxious,,False,anxious,conv_00152
+msg_00289,"Today, right now I am still boiling over what happened.",angry,,False,angry,conv_00152
+msg_00419,I worked through my usual tasks.,neutral,,False,neutral,conv_00152
+msg_00392,"Lately, i feel on edge tonight.",anxious,,False,anxious,conv_00152
+msg_00593,"Honestly, i keep thinking about ending everything.",suicidal,,False,suicidal,conv_00153
+msg_00499,"Lately, i did some studying and took a break.",neutral,,False,neutral,conv_00153
+msg_00139,I keep wishing I could change the past.,sad,,False,sad,conv_00153
+msg_00063,I am celebrating a small win tonight.,happy,,False,happy,conv_00153
+msg_00472,"Lately, i spent some time reading and resting.",neutral,,False,neutral,conv_00154
+msg_00129,I am feeling alone with my thoughts tonight.,sad,,False,sad,conv_00154
+msg_00686,"Everything was normal today, but I noticed a quiet sadness in the background. I could feel both reactions at once.",neutral,sad,True,"neutral,sad",conv_00154
+msg_00521,I am feeling completely hopeless and want my life to end.,suicidal,,False,suicidal,conv_00154
+msg_00065,I feel warm and grateful inside.,happy,,False,happy,conv_00155
+msg_00015,I laughed so much today.,happy,,False,happy,conv_00155
+msg_00157,I miss feeling genuinely excited about things.,sad,,False,sad,conv_00155
+msg_00041,I am smiling just thinking about what happened.,happy,,False,happy,conv_00155
+msg_00493,"Lately, i went about my day as usual.",neutral,,False,neutral,conv_00156
+msg_00380,"Lately, i keep second-guessing myself.",anxious,,False,anxious,conv_00156
+msg_00188,I am feeling a deep sense of loss.,sad,,False,sad,conv_00156
+msg_00217,I feel like my patience is gone.,angry,,False,angry,conv_00156
+msg_00053,Right now I am really enjoying this phase of my life.,happy,,False,happy,conv_00157
+msg_00338,I feel restless even though everything is fine.,anxious,,False,anxious,conv_00157
+msg_00296,"Lately, right now I am irritated by everything right now.",angry,,False,angry,conv_00157
+msg_00252,"Honestly, i am really angry about what happened.",angry,,False,angry,conv_00157
+msg_00462,"Today, i mostly stayed busy with everyday tasks.",neutral,,False,neutral,conv_00158
+msg_00456,"Today, i followed my normal schedule.",neutral,,False,neutral,conv_00158
+msg_00704,"The day was normal, but I felt quietly sad and kept worrying about tomorrow.",neutral,"sad,anxious",True,"neutral,sad,anxious",conv_00158
+msg_00270,"Honestly, i am fed up with being ignored.",angry,,False,angry,conv_00158
+msg_00202,Right now I am really angry about what happened.,angry,,False,angry,conv_00159
+msg_00162,I feel invisible to everyone.,sad,,False,sad,conv_00159
+msg_00556,"Lately, i feel like I cannot keep living this way.",suicidal,,False,suicidal,conv_00159
+msg_00402,I went through my usual routine.,neutral,,False,neutral,conv_00159
+msg_00477,"Today, today felt like a normal weekday.",neutral,,False,neutral,conv_00160
+msg_00106,I am feeling lonely even when people are around me.,sad,,False,sad,conv_00160
+msg_00566,"Honestly, i do not see a reason to stay alive.",suicidal,,False,suicidal,conv_00160
+msg_00390,"Honestly, my mind will not switch off.",anxious,,False,anxious,conv_00160
+msg_00002,Right now I am genuinely happy today.,happy,,False,happy,conv_00161
+msg_00659,"Everything is normal on the surface, but I cannot stop feeling nervous about tomorrow. I noticed the second feeling more once I had calmed down.",anxious,neutral,True,"anxious,neutral",conv_00161
+msg_00562,"Lately, i have been thinking seriously about suicide.",suicidal,,False,suicidal,conv_00161
+msg_00081,I am feeling optimistic about where this is heading.,happy,,False,happy,conv_00161
+msg_00206,I cannot believe they treated me that way.,angry,,False,angry,conv_00162
+msg_00035,I woke up feeling cheerful and motivated.,happy,,False,happy,conv_00162
+msg_00509,I keep wishing I were dead.,suicidal,,False,suicidal,conv_00162
+msg_00428,I finished my work and went home.,neutral,,False,neutral,conv_00162
+msg_00455,"Honestly, i followed my normal schedule.",neutral,,False,neutral,conv_00163
+msg_00367,"Today, i have been overthinking every little detail.",anxious,,False,anxious,conv_00163
+msg_00092,Right now I am genuinely pleased with myself.,happy,,False,happy,conv_00163
+msg_00340,I keep predicting the worst outcome.,anxious,,False,anxious,conv_00163
+msg_00565,"Lately, i do not see a reason to stay alive.",suicidal,,False,suicidal,conv_00164
+msg_00346,"Today, i cannot stop worrying about tomorrow.",anxious,,False,anxious,conv_00164
+msg_00242,I am annoyed that my concerns were dismissed.,angry,,False,angry,conv_00164
+msg_00014,That success gave me a huge confidence boost.,happy,,False,happy,conv_00164
+msg_00316,My mind will not switch off.,anxious,,False,anxious,conv_00165
+msg_00601,"I had a wonderful time with my friends, but I still missed someone who could not be there. I could feel both reactions at once.",happy,sad,True,"happy,sad",conv_00165
+msg_00388,"Today, right now I am scared of making the wrong choice.",anxious,,False,anxious,conv_00165
+msg_00274,"Today, right now I am fed up with being ignored.",angry,,False,angry,conv_00165
+msg_00167,I am having trouble feeling hopeful.,sad,,False,sad,conv_00166
+msg_00700,"Nothing unusual happened, except for one interaction that left me irritated. By the evening, I was still carrying both emotions.",neutral,angry,True,"neutral,angry",conv_00166
+msg_00647,"I am excited about tomorrow, but my mind keeps worrying about everything that could go wrong. It was difficult to describe the mood with one word.",anxious,happy,True,"anxious,happy",conv_00166
+msg_00485,"Honestly, i worked through my usual tasks.",neutral,,False,neutral,conv_00166
+msg_00689,"Everything was normal today, but I noticed a quiet sadness in the background. I noticed the second feeling more once I had calmed down.",neutral,sad,True,"neutral,sad",conv_00167
+msg_00505,I feel like I cannot keep living this way.,suicidal,,False,suicidal,conv_00167
+msg_00244,I feel completely fed up tonight.,angry,,False,angry,conv_00167
+msg_00567,"Today, i do not see a reason to stay alive.",suicidal,,False,suicidal,conv_00167
+msg_00563,"Honestly, i have been thinking seriously about suicide.",suicidal,,False,suicidal,conv_00168
+msg_00190,I feel sadder than I expected to.,sad,,False,sad,conv_00168
+msg_00476,"Honestly, today felt like a normal weekday.",neutral,,False,neutral,conv_00168
+msg_00511,I am feeling like death is the only escape.,suicidal,,False,suicidal,conv_00168
+msg_00059,"I feel calm, satisfied, and happy.",happy,,False,happy,conv_00169
+msg_00475,"Lately, today felt like a normal weekday.",neutral,,False,neutral,conv_00169
+msg_00561,"Today, i am feeling like I cannot keep living this way.",suicidal,,False,suicidal,conv_00169
+msg_00253,"Today, i am really angry about what happened.",angry,,False,angry,conv_00169
+msg_00022,I am feeling peaceful and content right now.,happy,,False,happy,conv_00170
+msg_00314,I am scared of making the wrong choice.,anxious,,False,anxious,conv_00170
+msg_00460,"Lately, i mostly stayed busy with everyday tasks.",neutral,,False,neutral,conv_00170
+msg_00161,Right now I am disappointed in myself tonight.,sad,,False,sad,conv_00170
+msg_00277,"Today, i feel disrespected and frustrated.",angry,,False,angry,conv_00171
+msg_00192,I am struggling to let go of what happened.,sad,,False,sad,conv_00171
+msg_00386,"Lately, right now I am scared of making the wrong choice.",anxious,,False,anxious,conv_00171
+msg_00414,It was an uneventful day.,neutral,,False,neutral,conv_00171
+msg_00492,"Today, nothing significant changed today.",neutral,,False,neutral,conv_00172
+msg_00344,"Lately, i cannot stop worrying about tomorrow.",anxious,,False,anxious,conv_00172
+msg_00309,I feel tense and restless.,anxious,,False,anxious,conv_00172
+msg_00662,"I am furious about what happened, but I am also worried about what will happen next. It was difficult to describe the mood with one word.",angry,anxious,True,"angry,anxious",conv_00172
+msg_00131,I do not feel like talking to anyone today.,sad,,False,sad,conv_00173
+msg_00664,"I am furious about what happened, but I am also worried about what will happen next. I noticed the second feeling more once I had calmed down.",angry,anxious,True,"angry,anxious",conv_00173
+msg_00100,I am delighted by how everything worked out.,happy,,False,happy,conv_00173
+msg_00373,"Today, i am feeling tense and restless.",anxious,,False,anxious,conv_00173
+msg_00088,I feel like celebrating tonight.,happy,,False,happy,conv_00174
+msg_00459,"Today, the day was neither especially good nor bad.",neutral,,False,neutral,conv_00174
+msg_00331,Right now I am anxious about the result.,anxious,,False,anxious,conv_00174
+msg_00215,I am irritated by everything right now.,angry,,False,angry,conv_00174
+msg_00467,"Honestly, i studied for a while this afternoon.",neutral,,False,neutral,conv_00175
+msg_00122,I feel forgotten by people I care about.,sad,,False,sad,conv_00175
+msg_00615,"I am happy about the result, but I am still annoyed by how I was treated. By the evening, I was still carrying both emotions.",happy,angry,True,"happy,angry",conv_00175
+msg_00021,I feel peaceful and content right now.,happy,,False,happy,conv_00175
+msg_00701,"I am excited about the future, but I miss what I have lost and worry about what comes next.",happy,"sad,anxious",True,"happy,sad,anxious",conv_00176
+msg_00072,I am enjoying being around people again.,happy,,False,happy,conv_00176
+msg_00107,Nothing seems to make me feel better tonight.,sad,,False,sad,conv_00176
+msg_00271,"Today, i am fed up with being ignored.",angry,,False,angry,conv_00176
+msg_00436,"Lately, nothing unusual happened today.",neutral,,False,neutral,conv_00177
+msg_00103,I have been crying on and off since morning.,sad,,False,sad,conv_00177

@@ -1,81 +1,139 @@
 const prisma = require("../../config/prisma");
 
-const calculateSeverity = (score) => {
-  if(score <= 4) return "Minimal";
-  if(score <= 9) return "Mild";
-  if(score <= 14) return "Moderate";
-  if(score <= 19) return "Moderately Severe";
-  return "Severe";
-};
+const {
+  calculateSeverity
+} = require("../../config/assessmentScoring.config");
 
-const saveAssessment = async (answers, userId) => {
-   
-  const score = answers.reduce((sum, val) => sum+val, 0);
 
-  const severity = calculateSeverity(score);
+// CREATE ASSESSMENT
+const saveAssessment = async (
+  assessmentType,
+  answers,
+  userId
+) => {
+
+  if (!Array.isArray(answers)) {
+    throw new Error("Answers must be an array.");
+  }
+
+  const score = answers.reduce(
+    (sum, val) => sum + Number(val || 0),
+    0
+  );
+
+  const severity = calculateSeverity(
+    assessmentType,
+    score
+  );
 
   const assessment = await prisma.assessment.create({
+
     data: {
+
+      assessmentType,
+
       score,
+
       severity,
+
+      responses: answers,
+
       user: {
         connect: {
           id: userId
         }
-       }
+      }
+
     }
-  });   
+
+  });
 
   return assessment;
-}
+};
 
+
+// GET ALL ASSESSMENTS
 const fetchAssessments = async () => {
+
   return await prisma.assessment.findMany({
+
     orderBy: {
       createdAt: "desc"
     }
+
   });
+
 };
 
+
+// GET ONE ASSESSMENT
 const getAssessmentById = async (id) => {
+
   return await prisma.assessment.findUnique({
+
     where: {
       id: Number(id)
     }
+
   });
+
 };
 
+
+// DELETE ASSESSMENT
 const deleteAssessment = async (id) => {
+
   return await prisma.assessment.delete({
+
     where: {
       id: Number(id)
     }
+
   });
+
 };
 
-const updateAssessment = async (id, answers) => {
 
-  const score =
-    answers.reduce((sum, val) => sum + val, 0);
+// UPDATE ASSESSMENT
+const updateAssessment = async (
+  id,
+  answers
+) => {
 
-  const severity =
-    calculateSeverity(score);
+  if (!Array.isArray(answers)) {
+    throw new Error("Answers must be an array.");
+  }
+
+  const score = answers.reduce(
+    (sum, val) => sum + Number(val || 0),
+    0
+  );
+
+  const severity = calculateSeverity(score);
 
   return await prisma.assessment.update({
+
     where: {
       id: Number(id)
     },
+
     data: {
       score,
-      severity
+      severity,
+      responses: answers
     }
+
   });
+
 };
 
+
 module.exports = {
+
   saveAssessment,
   fetchAssessments,
   getAssessmentById,
   deleteAssessment,
   updateAssessment
+
 };

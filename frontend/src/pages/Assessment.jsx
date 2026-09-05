@@ -122,7 +122,6 @@ function Assessment() {
     }
   };
 
-  console.log(activeAssessment);
 
   return (
     <div className="echo-center-layout">

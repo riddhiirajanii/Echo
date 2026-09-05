@@ -8,32 +8,31 @@ datasource db {
 }
 
 model User {
+  id Int @id @default(autoincrement())
 
-  id        Int      @id @default(autoincrement())
+  name String
 
-  name      String
+  email String @unique
 
-  email     String   @unique
+  password String
 
-  password  String
+  age Int?
 
-  age       Int?
+  gender String?
 
-  gender    String?
-
-  phone     String?
+  phone String?
 
   profilePicture String?
 
   createdAt DateTime @default(now())
 
-  journals      JournalEntry[]
+  journals JournalEntry[]
 
-  assessments   Assessment[]
+  assessments Assessment[]
 
-  isVerified   Boolean       @default(false)
+  isVerified Boolean @default(false)
 
-  verificationCode    String?
+  verificationCode String?
 
   conversations Conversation[]
 }
@@ -49,9 +48,12 @@ model JournalEntry {
 }
 
 model Assessment {
-  id       Int    @id @default(autoincrement())
-  score    Int
-  severity String
+  id Int @id @default(autoincrement())
+
+  assessmentType String
+  score          Int
+  severity       String
+  responses      Json?
 
   createdAt DateTime @default(now())
 
@@ -73,18 +75,17 @@ model ChatMessage {
 }
 
 model Conversation {
+  id Int @id @default(autoincrement())
 
-  id          Int      @id @default(autoincrement())
+  title String
 
-  title       String
+  createdAt DateTime @default(now())
 
-  createdAt   DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
-  updatedAt   DateTime @updatedAt
+  userId Int
 
-  userId      Int
+  user User @relation(fields: [userId], references: [id])
 
-  user        User @relation(fields:[userId], references:[id])
-
-  messages    ChatMessage[]
+  messages ChatMessage[]
 }

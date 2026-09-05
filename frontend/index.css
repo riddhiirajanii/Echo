@@ -56,65 +56,6 @@ input, textarea, select {
   position: relative;
 }
 
-/* --- Crisp, Hand-Drawn Crayon Flowers --- */
-.crayon-flower {
-  position: absolute;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.35; /* Perfectly balanced soft pastel presence */
-  filter: url(#crayon-texture); /* Applies realistic waxy texture boundaries */
-}
-
-.flower-top {
-  top: 12%;
-  left: 10%;
-  width: 140px;
-  height: 140px;
-  animation: floatOne 22s infinite ease-in-out;
-}
-
-.flower-bottom {
-  bottom: 12%;
-  right: 12%;
-  width: 120px;
-  height: 120px;
-  animation: floatTwo 18s infinite ease-in-out;
-}
-
-/* Individual Petal Construction */
-.crayon-flower .petal {
-  position: absolute;
-  border-radius: 50%;
-  background: #fecdd3; /* Soft Pink */
-}
-
-/* 5-Petal Flower Placements */
-.flower-top .petal { width: 55px; height: 55px; top: 42.5px; left: 42.5px; }
-.flower-top .p1 { transform: translateY(-40px); background: #df222e; }
-.flower-top .p2 { transform: translateX(38px) translateY(-12px); background: #df222e;}
-.flower-top .p3 { transform: translateX(22px) translateY(32px); background:  #df222e;}
-.flower-top .p4 { transform: translateX(-22px) translateY(32px); background: #df222e;}
-.flower-top .p5 { transform: translateX(-38px) translateY(-12px); background:  #df222e}
-
-/* 4-Petal Flower Placements */
-.flower-bottom .petal { width: 55px; height: 55px; top: 35px; left: 35px; background:  #df222e; } /* Soft Peach */
-.flower-bottom .p1 { transform: translateY(-32px); background:  #df222e; }
-.flower-bottom .p2 { transform: translateX(32px);  background:  #df222e; }
-.flower-bottom .p3 { transform: translateY(32px); background:  #df222e; }
-.flower-bottom .p4 { transform: translateX(-32px); background:  #df222e; }
-
-/* The Center pistil of the flowers */
-.crayon-flower .flower-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  box-shadow: inset 0 0 4px rgba(0,0,0,0.05);
-}
-.flower-top .flower-center { width: 45px; height: 45px; background: #fecdd3; }
-.flower-bottom .flower-center { width: 40px; height: 40px; background: #fecdd3; }
-
 /* Gentle Floating Oscillations */
 @keyframes floatOne {
   0%, 100% { transform: translateY(0) rotate(0deg) scale(1); }
@@ -138,6 +79,10 @@ input, textarea, select {
   border: 1px solid rgba(232, 223, 219, 0.7); /* Grounding warm sand border */
 }
 
+.font {
+  font-family: "Dancing Script";
+  font-size: 3rem;
+}
 .form {
   width: 100%;
   max-width: 400px;

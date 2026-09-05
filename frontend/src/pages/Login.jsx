@@ -32,27 +32,10 @@ function Login() {
 
   return (
     <div className="page">
-      {/* --- Actual structural crayon flowers --- */}
-      <div className="crayon-flower flower-top">
-        <div className="petal p1"></div>
-        <div className="petal p2"></div>
-        <div className="petal p3"></div>
-        <div className="petal p4"></div>
-        <div className="petal p5"></div>
-        <div className="flower-center"></div>
-      </div>
-
-      <div className="crayon-flower flower-bottom">
-        <div className="petal p1"></div>
-        <div className="petal p2"></div>
-        <div className="petal p3"></div>
-        <div className="petal p4"></div>
-        <div className="flower-center"></div>
-      </div>
 
       {/* --- Login Card Container --- */}
       <div className="card form">
-        <h1>Echo</h1>
+        <h1 className="font">Echo</h1>
         <p className="subtitle">Your AI Anxiety Companion</p>
 
         <form onSubmit={handleLogin}>

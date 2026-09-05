@@ -10,9 +10,9 @@ const {
 
 const createAssessment = async (req, res) => {
 
-  const { answers } = req.body;
+  const { assessmentId, answers } = req.body;
 
-  const assessment = await saveAssessment(answers, req.user.userId);
+  const assessment = await saveAssessment(assessmentId, answers, req.user.userId);
 
   res.json({
     success: true,
